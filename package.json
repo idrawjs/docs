@@ -1,21 +1,14 @@
 {
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "docsify serve ./"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/idrawjs/docs.git"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/idrawjs/docs/issues"
-  },
-  "homepage": "https://github.com/idrawjs/docs#readme",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "docsify-cli": "^4.4.3"
   }
 }
