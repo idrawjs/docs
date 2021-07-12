@@ -14,7 +14,12 @@
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: '',
+      loadNavbar: true,
+      alias: {
+        '/.*/_navbar.md': '/docs/_navbar.md',
+        '/_navbar.md': '/docs/_navbar.md'
+      }
     }
   </script>
   <!-- Docsify v4 -->
