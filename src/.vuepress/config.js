@@ -8,7 +8,6 @@ module.exports = {
       title: 'iDraw.js',
       description: 'iDraw.js A simple JavaScript framework for Drawing on the web',
     },
-
     '/page/zh/': {
       lang: '中文',
       title: 'iDraw.js',
@@ -75,9 +74,55 @@ module.exports = {
       },
       '/page/zh/': {
         sidebar: [
-          ['/page/zh/quickstart', '快速开始'],
-          ['/page/zh/element', '元素'],
-          ['/page/zh/api', '使用API'],
+          {
+            title: '基础', 
+            path: '/page/zh/guide/',  
+            collapsable: false, 
+            sidebarDepth: 1,
+            children: [
+              '/page/zh/guide/quickstart',
+              '/page/zh/guide/installation',
+              '/page/zh/guide/config',
+              '/page/zh/guide/options',
+            ]
+          },
+          {
+            title: '画图元素', 
+            path: '/page/zh/element/',  
+            collapsable: false, 
+            sidebarDepth: 1,
+            children: [
+              '/page/zh/element/text',
+              '/page/zh/element/rect',
+              '/page/zh/element/circle',
+              '/page/zh/element/image',
+              '/page/zh/element/svg',
+              '/page/zh/element/html',
+            ]
+          },
+          {
+            title: 'iDraw实例API', 
+            path: '/page/zh/api/',  
+            collapsable: false, 
+            sidebarDepth: 1,
+            children: [
+              '/page/zh/api/set-data',
+              '/page/zh/api/get-data',
+              '/page/zh/api/reset-size',
+              '/page/zh/api/select-element',
+              '/page/zh/api/select-element-by-index',
+              '/page/zh/api/update-element',
+              '/page/zh/api/add-element',
+              '/page/zh/api/delete-element',
+              '/page/zh/api/move-up-element',
+              '/page/zh/api/move-down-element',
+              '/page/zh/api/scale',
+              '/page/zh/api/scroll-x',
+              '/page/zh/api/scroll-y',
+              '/page/zh/api/event',
+            ]
+          },
+          ['/page/zh/advanced-guide', 'Advanced Guide']
         ]
       }
     }
