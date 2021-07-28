@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/docs/',
+  base: '/',
   title: 'iDraw.js',
   description: 'A JavaScript Framework for Drawing on web',
   locales: {
