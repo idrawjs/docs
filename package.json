@@ -1,8 +1,10 @@
 {
   "version": "0.0.1",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress build src",
+    "dev": "npm run docs:dev",
+    "build": "npm run docs:build && node ./scripts/after-build.js"
   },
   "repository": {
     "type": "git",
