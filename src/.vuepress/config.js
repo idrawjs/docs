@@ -8,7 +8,7 @@ module.exports = {
       title: 'iDraw.js',
       description: 'iDraw.js A simple JavaScript framework for Drawing on the web',
     },
-    '/page/zh/': {
+    '/zh/': {
       lang: '中文',
       title: 'iDraw.js',
       description: 'iDraw.js 一个前端画图JavaScript框架',
@@ -23,106 +23,106 @@ module.exports = {
         sidebar: [
           {
             title: 'Essentials', 
-            path: '/page/en/guide/',  
+            path: '/en/guide/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
-              '/page/en/guide/quickstart',
-              '/page/en/guide/installation',
-              '/page/en/guide/config',
-              '/page/en/guide/options',
+              '/en/guide/quickstart',
+              '/en/guide/installation',
+              '/en/guide/config',
+              '/en/guide/options',
             ]
           },
           {
             title: 'Element', 
-            path: '/page/en/element/',  
+            path: '/en/element/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
-              '/page/en/element/text',
-              '/page/en/element/rect',
-              '/page/en/element/circle',
-              '/page/en/element/image',
-              '/page/en/element/svg',
-              '/page/en/element/html',
+              '/en/element/text',
+              '/en/element/rect',
+              '/en/element/circle',
+              '/en/element/image',
+              '/en/element/svg',
+              '/en/element/html',
             ]
           },
           {
             title: 'API', 
-            path: '/page/en/api/',  
+            path: '/en/api/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
-              '/page/en/api/set-data',
-              '/page/en/api/get-data',
-              '/page/en/api/reset-size',
-              '/page/en/api/select-element',
-              '/page/en/api/select-element-by-index',
-              '/page/en/api/update-element',
-              '/page/en/api/add-element',
-              '/page/en/api/delete-element',
-              '/page/en/api/move-up-element',
-              '/page/en/api/move-down-element',
-              '/page/en/api/scale',
-              '/page/en/api/scroll-x',
-              '/page/en/api/scroll-y',
-              '/page/en/api/event',
+              '/en/api/set-data',
+              '/en/api/get-data',
+              '/en/api/reset-size',
+              '/en/api/select-element',
+              '/en/api/select-element-by-index',
+              '/en/api/update-element',
+              '/en/api/add-element',
+              '/en/api/delete-element',
+              '/en/api/move-up-element',
+              '/en/api/move-down-element',
+              '/en/api/scale',
+              '/en/api/scroll-x',
+              '/en/api/scroll-y',
+              '/en/api/event',
             ]
           },
-          ['/page/en/advanced-guide', 'Advanced Guide']
+          ['/en/advanced-guide', 'Advanced Guide']
         ]
       },
-      '/page/zh/': {
+      '/zh/': {
         sidebar: [
           {
             title: '基础', 
-            path: '/page/zh/guide/',  
+            path: '/zh/guide/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
-              '/page/zh/guide/quickstart',
-              '/page/zh/guide/installation',
-              '/page/zh/guide/config',
-              '/page/zh/guide/options',
+              '/zh/guide/quickstart',
+              '/zh/guide/installation',
+              '/zh/guide/config',
+              '/zh/guide/options',
             ]
           },
           {
             title: '画图元素', 
-            path: '/page/zh/element/',  
+            path: '/zh/element/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
-              '/page/zh/element/text',
-              '/page/zh/element/rect',
-              '/page/zh/element/circle',
-              '/page/zh/element/image',
-              '/page/zh/element/svg',
-              '/page/zh/element/html',
+              '/zh/element/text',
+              '/zh/element/rect',
+              '/zh/element/circle',
+              '/zh/element/image',
+              '/zh/element/svg',
+              '/zh/element/html',
             ]
           },
           {
             title: 'iDraw实例API', 
-            path: '/page/zh/api/',  
+            path: '/zh/api/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
-              '/page/zh/api/set-data',
-              '/page/zh/api/get-data',
-              '/page/zh/api/reset-size',
-              '/page/zh/api/select-element',
-              '/page/zh/api/select-element-by-index',
-              '/page/zh/api/update-element',
-              '/page/zh/api/add-element',
-              '/page/zh/api/delete-element',
-              '/page/zh/api/move-up-element',
-              '/page/zh/api/move-down-element',
-              '/page/zh/api/scale',
-              '/page/zh/api/scroll-x',
-              '/page/zh/api/scroll-y',
-              '/page/zh/api/event',
+              '/zh/api/set-data',
+              '/zh/api/get-data',
+              '/zh/api/reset-size',
+              '/zh/api/select-element',
+              '/zh/api/select-element-by-index',
+              '/zh/api/update-element',
+              '/zh/api/add-element',
+              '/zh/api/delete-element',
+              '/zh/api/move-up-element',
+              '/zh/api/move-down-element',
+              '/zh/api/scale',
+              '/zh/api/scroll-x',
+              '/zh/api/scroll-y',
+              '/zh/api/event',
             ]
           },
-          ['/page/zh/advanced-guide', 'Advanced Guide']
+          ['/zh/advanced-guide', 'Advanced Guide']
         ]
       }
     }
