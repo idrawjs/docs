@@ -76,7 +76,7 @@ module.exports = {
         sidebar: [
           {
             title: '基础', 
-            path: '/zh/guide/',  
+            // path: '/zh/guide/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
@@ -88,7 +88,7 @@ module.exports = {
           },
           {
             title: '画图元素', 
-            path: '/zh/element/',  
+            // path: '/zh/element/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
