@@ -91,6 +91,7 @@ module.exports = {
             collapsable: false, 
             sidebarDepth: 1,
             children: [
+              '/zh/element/info',
               '/zh/element/text',
               '/zh/element/rect',
               '/zh/element/circle',

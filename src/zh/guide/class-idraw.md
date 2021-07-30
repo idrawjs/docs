@@ -102,8 +102,8 @@ type Config = {
 |属性|说明|类型|默认值|是否必填|备注|
 |--|--|--|--|--|--|
 | use | 是否使用滚动条 |`boolean`| `false` | `false` | - |
-| color | 滚动框颜色 |`string`| `-` | `false` | - |
-| lineWidth | 滚动框宽度 |`number`| `1` | `false` | - |
+| color | 滚动框颜色 |`string`| `#a0a0a0` | `false` | - |
+| lineWidth | 滚动框宽度 |`number`| `12` | `false` | - |
 
 ### Config 效果预览
 
