@@ -82,8 +82,7 @@ module.exports = {
             children: [
               '/zh/guide/quickstart',
               '/zh/guide/installation',
-              '/zh/guide/config',
-              '/zh/guide/options',
+              '/zh/guide/class-idraw',
             ]
           },
           {
