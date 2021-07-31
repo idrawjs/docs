@@ -2,10 +2,10 @@
 
 ## SVG
 
-用来`SVG`代码片，具体格式如下所示：
+用来渲染`SVG`代码片，具体格式如下所示：
 
 ```ts
-type Image = {
+type SVG = {
   type: 'svg',
   x: number,
   y: number,
