@@ -2,7 +2,7 @@
 
 ## Rectangle
 
-用来渲染文字内容，具体格式如下所示：
+用来渲染矩形内容，具体格式如下所示：
 
 ```ts
 type Rect = {
@@ -30,7 +30,7 @@ type Rect = {
 Text元素的`desc`属性
 
 ```ts
-type TextDesc = {
+type RectDesc = {
   color?: string,
   bgColor?: string,
   borderWidth?: number,
