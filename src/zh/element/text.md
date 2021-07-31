@@ -18,6 +18,7 @@ type Text = {
     fontSize?: string,
     fontFamily?: string,
     textAlign?: 'left' | 'center' | 'right',
+    borderRadius?: string,
     borderWidth?: number,
     borderColor?: number,
   }
@@ -40,6 +41,7 @@ type TextDesc = {
   fontFamily?: string,
   textAlign?: 'left' | 'center' | 'right',
   bgColor?: string,
+  borderRadius?: string,
   borderWidth?: number,
   borderColor?: string,
 }
@@ -51,13 +53,14 @@ type TextDesc = {
 |属性|说明|类型|默认值|是否必填|备注|
 |--|--|--|--|--|--|
 | text | 文本内容 |`string`| - | `true` | - |
-| color | 字体颜色 |`string`| - | `true` | - |
+| color | 字体颜色 |`string`| - | `true` | 例如 `#000000` |
 | fontSize | 字体尺寸 |`number`| `12` | `false` | - |
 | fontFamily | 字体类型 |`string`| - | `false` | - |
 | textAlign | 文本对齐 |`left | center | right`| `center` | `false` | - |
-| bgColor | 背景颜色 |`number`| `0` | `false` | - |
+| bgColor | 背景颜色 |`number`| `0` | `false` | 例如 `#ffffff`  |
+| borderRadius | 边框角圆形半径 |`number`| `0` | `false` | - |
 | borderWidth | 边框宽度 |`number`| `0` | `false` | - |
-| borderColor | 边框颜色 |`number`| `0` | `false` | - |
+| borderColor | 边框颜色 |`number`| `0` | `false` | 例如 `#000000`  |
 
 
 ## 完整数据示例
