@@ -1,6 +1,20 @@
-# iDraw.js
+<h1 align="center">iDraw.js</h1>
 
-# 一个面向Web绘图的JavaScript框架
+<p align="center" style="font-size:28px;">一个面向Web绘图的JavaScript框架</p>
+
+<p align="center">
+  <a title="CI" href="https://github.com/idrawjs/idraw/actions/workflows/node.js.yml">
+    <img src="https://github.com/idrawjs/idraw/actions/workflows/node.js.yml/badge.svg?branch=main" alt="CI">
+  </a>
+
+  <a href="https://www.npmjs.com/package/idraw">
+    <img src="https://img.shields.io/npm/v/idraw.svg?sanitize=idraw" alt="Version">
+  </a>
+  <a href="https://www.npmjs.com/package/idraw">
+    <img src="https://img.shields.io/npm/l/idraw.svg?sanitize=true" alt="License">
+  </a>
+</p>
+
 
 <br/>
 <div>
