@@ -43,7 +43,7 @@ type ImageDesc = {
 ## 完整数据示例
 
 ```js
-const elementCircle = {
+const elementImage = {
   name: "image",
   x: 160,
   y: 100,
