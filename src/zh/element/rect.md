@@ -27,7 +27,7 @@ type Rect = {
 
 ### Rect.desc 数据格式
 
-Text元素的`desc`属性
+Rect 元素的`desc`属性
 
 ```ts
 type RectDesc = {
