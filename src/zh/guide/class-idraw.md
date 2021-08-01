@@ -45,7 +45,7 @@ type Options = {
 | width | 画板宽度 |`number`| - |`true`| - |
 | height | 画板高度 |`number`| - |`true`| - |
 | contextWidth | 画布宽度 |`number`| - |`true`| - |
-| contextHeight | 画布宽度 |`number`| - |`true`| - |
+| contextHeight | 画布高度 |`number`| - |`true`| - |
 | devicePixelRatio | 设备像素比例 |`number`| `1` |`false`| - |
 | onlyRender | 是否只渲染 | `boolean` | `false` |`false`| - |
 | maxRecords | 最大操作记录 | `number` | `10` |`false`|用于“撤销”与“重写”操作|
