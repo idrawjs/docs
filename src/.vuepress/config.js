@@ -108,7 +108,6 @@ module.exports = {
             children: [
               '/zh/api/set-data',
               '/zh/api/get-data',
-              '/zh/api/reset-size',
               '/zh/api/select-element',
               '/zh/api/select-element-by-index',
               '/zh/api/update-element',
@@ -116,6 +115,7 @@ module.exports = {
               '/zh/api/delete-element',
               '/zh/api/move-up-element',
               '/zh/api/move-down-element',
+              '/zh/api/reset-size',
               '/zh/api/scale',
               '/zh/api/scroll-x',
               '/zh/api/scroll-y',

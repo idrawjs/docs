@@ -2,28 +2,51 @@
 
 ## 说明
 
-`// TODO`
+`selectElement` 根据元素的`UUID`选中图画中的元素。
 
 ## 参数
 
-`// TODO`
+- `{string}` `uuid` 元素唯一ID
+
+:::tip
+元素在画图时候，例如通过 `setData`和`addElement` 操作时候，如果无`uuid`，会自动生成和补全 新增元素的`uuid`
+:::
 
 ## 返回值
 
-`// TODO`
+> 无返回值
 
 ## 用法
 
 ```js
-// TODO
+import iDraw from 'idraw';
+
+const data = {
+  elements: [
+    // ....
+  ]
+}
+const app = document.querySelector('#app');
+const options = {
+  width: 600,
+  height: 400,
+  contextWidth: 600,
+  contextHeight: 400,
+  devicePixelRatio: 4,
+}
+const idraw = new iDraw(app, options);
+idraw.setData(data);
+const resultData = idraw.getData();
+
+idraw.selectElement(resultData.elements[0].uuid);
 ```
 
 ## 示例
 
-[Demo完整预览 Playground >>](https://idrawjs.github.io/playground/?demo=api-selectElementByIndex)
+[Demo完整预览 Playground >>](https://idrawjs.github.io/playground/?demo=api-selectElement)
 
 <iframe 
-  src="https://idrawjs.github.io/playground/?demo=api-selectElementByIndex&header=false&sider=false&default-editor-split=37" 
+  src="https://idrawjs.github.io/playground/?demo=api-selectElement&header=false&sider=false&default-editor-split=37" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>
