@@ -4,6 +4,10 @@
 
 `addElement` 对图画添加元素，并且触发重新渲染。
 
+:::tip
+`addElement` 方法使用时，当成功添加元素内容后，会触发画图的 `"changeData"`事件。
+:::
+
 ## 参数
 
 - `{object}` `element` 元素内容，具体元素数据格式可查询 [画图元素](./../element/info.md) 。
