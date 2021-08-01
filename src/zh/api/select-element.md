@@ -4,6 +4,10 @@
 
 `selectElement` 根据元素的`UUID`选中图画中的元素。
 
+:::tip
+`selectElement` 方法使用时，当成功选中了元素后，会触发画图的 `"screenSelectElement"`事件。
+:::
+
 ## 参数
 
 - `{string}` `uuid` 元素唯一ID

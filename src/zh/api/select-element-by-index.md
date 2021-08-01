@@ -4,6 +4,10 @@
 
 `selectElementByIndex` 根据元素在`data.elements`中的索引位置，来选中元素。
 
+:::tip
+`selectElementByIndex` 方法使用时，当成功选中了元素后，会触发画图的 `"screenSelectElement"`事件。
+:::
+
 ## 参数
 
 - `{number}` `index` 元素在 `data.elements`中的索引位置。
