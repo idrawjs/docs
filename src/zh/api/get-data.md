@@ -2,20 +2,54 @@
 
 ## 说明
 
-`// TODO`
+`getData` 用于获取当前画图内容的数据。
 
 ## 参数
 
-`// TODO`
+> 无参数
 
 ## 返回值
 
-`// TODO`
+- `{object}` `data` 图画的`JSON`数据
 
 ## 用法
 
 ```js
-// TODO
+import iDraw from 'idraw';
+
+const data = {
+  elements: [
+    {
+      name: "rect",
+      x: 160,
+      y: 120,
+      w: 200,
+      h: 100,
+      angle: 30,
+      type: "rect",
+      desc: {
+        color: "#d5f5f9",
+        borderRadius: 10,
+        borderWidth: 2,
+        borderColor: "#3f51b5",
+      },
+    }
+  ]
+}
+
+const app = document.querySelector('#app');
+const options = {
+  width: 600,
+  height: 400,
+  contextWidth: 600,
+  contextHeight: 400,
+  devicePixelRatio: 4,
+}
+const idraw = new iDraw(app, options);
+idraw.setData(data);
+
+const resultData = idraw.getData();
+console.log(resultData);
 ```
 
 ## 示例

@@ -122,7 +122,6 @@ module.exports = {
               '/zh/api/event',
             ]
           },
-          ['/zh/advanced-guide', 'Advanced Guide']
         ]
       }
     }
