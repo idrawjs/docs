@@ -52,7 +52,7 @@ type RectDesc = {
 ## 完整数据示例
 
 ```js
-const elementText = {
+const elementRect = {
   name: "rect",
   x: 160,
   y: 120,
