@@ -27,6 +27,7 @@ module.exports = {
             collapsable: false, 
             sidebarDepth: 1,
             children: [
+              '/en/guide/introduction',
               '/en/guide/quickstart',
               '/en/guide/installation',
               '/en/guide/config',
@@ -80,7 +81,7 @@ module.exports = {
             collapsable: false, 
             sidebarDepth: 1,
             children: [
-              '/zh/guide/info',
+              '/zh/guide/introduction',
               '/zh/guide/quickstart',
               '/zh/guide/installation',
               '/zh/guide/class-idraw',
