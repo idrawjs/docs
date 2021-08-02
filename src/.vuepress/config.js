@@ -80,6 +80,7 @@ module.exports = {
             collapsable: false, 
             sidebarDepth: 1,
             children: [
+              '/zh/guide/info',
               '/zh/guide/quickstart',
               '/zh/guide/installation',
               '/zh/guide/class-idraw',
@@ -102,7 +103,7 @@ module.exports = {
           },
           {
             title: 'iDraw实例API', 
-            path: '/zh/api/',  
+            // path: '/zh/api/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
