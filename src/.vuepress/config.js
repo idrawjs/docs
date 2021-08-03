@@ -23,7 +23,6 @@ module.exports = {
         sidebar: [
           {
             title: 'Essentials', 
-            path: '/en/guide/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
@@ -36,7 +35,6 @@ module.exports = {
           },
           {
             title: 'Element', 
-            path: '/en/element/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
@@ -51,7 +49,6 @@ module.exports = {
           },
           {
             title: 'API', 
-            path: '/en/api/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
@@ -71,7 +68,6 @@ module.exports = {
               '/en/api/event',
             ]
           },
-          ['/en/advanced-guide', 'Advanced Guide']
         ]
       },
       '/zh/': {
