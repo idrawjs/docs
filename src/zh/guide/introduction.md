@@ -2,9 +2,9 @@
 
 ## iDraw.js 是什么
 
-`iDraw.js` 是基于浏览器中 Canvas 的绘图能力实现的一套画图框架。
+`iDraw.js` 是基于浏览器中 [`Canvas API`](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API) 的绘图能力实现的一套画图框架。
 
-可以直接由数据驱动去渲染图画的渲染，同时能否可视化操控图画元素的位置、形状和布局等信息。
+可以直接由数据驱动去渲染图画的渲染，同时能可视化操控 [图画元素](./../element/info.md) 的位置、形状和布局等信息。
 
 `iDraw.js` 目前基于 [`MIT`](https://github.com/idrawjs/idraw/blob/main/LICENSE) 开源协议托管在[`GitHub`](https://github.com/idrawjs/idraw) 和 [`NPM`](https://www.npmjs.com/package/idraw)，所有使用者就都可以免费地使用在自己的项目中。
 

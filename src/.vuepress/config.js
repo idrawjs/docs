@@ -40,6 +40,7 @@ module.exports = {
             collapsable: false, 
             sidebarDepth: 1,
             children: [
+              '/en/element/info',
               '/en/element/text',
               '/en/element/rect',
               '/en/element/circle',
