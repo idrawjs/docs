@@ -5,14 +5,20 @@
 ```js
 import iDraw from 'idraw';
 const dom = document.querySelector('#app');
-
-const idraw = new iDraw(dom, {
+const options = {
   width: 600,
   height: 400,
   contextWidth: 600,
   contextHeight: 400,
   devicePixelRatio: 4,
-});
+}
+const config = {
+  scrollWrapper: {
+    use: true,
+  }
+}
+
+const idraw = new iDraw(dom, options, config);
 ```
 
 在使用 `new iDraw(dom, options, config)` 类时，会接收三个参数。参数信息有下：

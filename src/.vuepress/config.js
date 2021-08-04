@@ -23,20 +23,17 @@ module.exports = {
         sidebar: [
           {
             title: 'Essentials', 
-            path: '/en/guide/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
               '/en/guide/introduction',
               '/en/guide/quickstart',
               '/en/guide/installation',
-              '/en/guide/config',
-              '/en/guide/options',
+              '/en/guide/class-idraw',
             ]
           },
           {
             title: 'Element', 
-            path: '/en/element/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
@@ -51,7 +48,6 @@ module.exports = {
           },
           {
             title: 'API', 
-            path: '/en/api/',  
             collapsable: false, 
             sidebarDepth: 1,
             children: [
@@ -71,7 +67,6 @@ module.exports = {
               '/en/api/event',
             ]
           },
-          ['/en/advanced-guide', 'Advanced Guide']
         ]
       },
       '/zh/': {

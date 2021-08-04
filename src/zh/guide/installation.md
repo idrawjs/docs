@@ -45,15 +45,19 @@ npm install idraw
 </script>
 ```
 
-
-> 注意：不建议用 unpkg.com 站点的CDN资源的放在生产环境
+:::warning
+不建议用 unpkg.com 站点的CDN资源的放在生产环境
+:::
 
 
 ## 自托管JavaScript文件
 
+
 如果不想使用构建工具，同时无法直接使用 CDN方式 调用，那么可以将相关的 `.js` 文件下载到项目本地或者服务器上托管。最后通过 `<script>` 方式引用，使用方法跟 CDN 的方式类似。
 
 具体的 JavaScript文件 可以从 [unpkg](https://unpkg.com/idraw) 这里下载最新的 `iDraw.js` 文件。
+
+
 
 
 
