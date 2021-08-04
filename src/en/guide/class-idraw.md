@@ -42,7 +42,7 @@ type Options = {
 }
 ```
 
-### Options Property
+### Options Properties
 
 |Property|Description|Type|Default|Required|Others|
 |--|--|--|--|--|--|
@@ -84,14 +84,14 @@ type Config = {
 }
 ```
 
-### Configuration Property
+### Configuration Properties
 
 |Property|Description|Type|Default|Required|Others|
 |--|--|--|--|--|--|
 | elementWrapper | Custom style of element wrapper |[object](#config-elementwrapper-property)| - |`false`| - |
 | scrollWrapper | Custom style of drawing-board's scroll-bar wrapper |[object](#config-scrollwrapper-property)| - |`false`| - |
 
-#### Config.elementWrapper Property
+#### Config.elementWrapper Properties
 
 |Property|Description|Type|Default|Required|Others|
 |--|--|--|--|--|--|
@@ -101,7 +101,7 @@ type Config = {
 | lineWidth | Custom element action point size |`number`| `1` | `false` | - |
 | lineDash | Custom element action line style |`number[]`| `[4, 3]` | `false` | - |
 
-#### Config.scrollWrapper Property
+#### Config.scrollWrapper Properties
 
 |Property|Description|Type|Default|Required|Others|
 |--|--|--|--|--|--|
