@@ -4,7 +4,6 @@
 
 It is used to render HTML code snippet. The specific type is as follows:
 
-
 ```ts
 type HTML = {
   type: 'html',
@@ -39,7 +38,7 @@ type HTMLDesc = {
 
 |Property|Description|Type|Default|Required|Others|
 |--|--|--|--|--|--|
-| html | HTML code snippet |`string`| - | `true` | HTML代码片段 |
+| html | HTML code snippet |`string`| - | `true` | - |
 
 
 ## Complete Data Example
