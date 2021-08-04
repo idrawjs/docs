@@ -38,7 +38,7 @@ type RectDesc = {
 }
 ```
 
-### Text.desc 数据属性内容
+### Rect.desc 数据属性内容
 
 
 |属性|说明|类型|默认值|是否必填|备注|
@@ -46,7 +46,7 @@ type RectDesc = {
 | color | 矩形颜色 |`string`| - | `true` | 例如 `#000000` |
 | borderRadius | 边框角圆形半径 |`number`| `0` | `false` | - |
 | borderWidth | 边框宽度 |`number`| `0` | `false` | - |
-| borderColor | 边框颜色 |`number`| `0` | `false` | 例如 `#000000`  |
+| borderColor | 边框颜色 |`string`| - | `false` | 例如 `#000000`  |
 
 
 ## 完整数据示例

@@ -37,7 +37,7 @@ type HTMLDesc = {
 
 |属性|说明|类型|默认值|是否必填|备注|
 |--|--|--|--|--|--|
-| html | 图片数据源 |`string`| - | `true` | HTML代码片段 |
+| html | HTML代码片段 |`string`| - | `true` | - |
 
 ::: warning
 注意 `desc.html` 里的 HTML代码片段暂时不支持依赖资源渲染，例如 `<img />` 标签或者 `css`的 `background-image` 属性

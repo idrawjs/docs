@@ -60,7 +60,7 @@ type TextDesc = {
 | bgColor | 背景颜色 |`number`| `0` | `false` | 例如 `#ffffff`  |
 | borderRadius | 边框角圆形半径 |`number`| `0` | `false` | - |
 | borderWidth | 边框宽度 |`number`| `0` | `false` | - |
-| borderColor | 边框颜色 |`number`| `0` | `false` | 例如 `#000000`  |
+| borderColor | 边框颜色 |`string`| - | `false` | 例如 `#000000`  |
 
 
 ## 完整数据示例
