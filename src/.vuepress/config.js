@@ -29,8 +29,7 @@ module.exports = {
               '/en/guide/introduction',
               '/en/guide/quickstart',
               '/en/guide/installation',
-              '/en/guide/config',
-              '/en/guide/options',
+              '/en/guide/class-idraw',
             ]
           },
           {
