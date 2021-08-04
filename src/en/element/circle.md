@@ -24,7 +24,7 @@ type Circle = {
 ## Circle.desc
 
 The basic attribute details of the element can be viewed [Element's Detail
-#](./info.md#element-s-detail) 。
+#](./info.md#element-s-detail) .
 
 ### Circle.desc Data-Type
 
