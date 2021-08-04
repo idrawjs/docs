@@ -2,7 +2,7 @@
 
 ## Circle
 
-It is used to render circular or oval content. The specific format is as follows:
+It is used to render circular or oval content. The specific type is as follows:
 
 ```ts
 type Circle = {
