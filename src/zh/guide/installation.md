@@ -31,10 +31,10 @@ npm install idraw
 ```html
 <!-- 全局变量使用 -->
 <script>
-  (() => {
-    const { IDraw } = window.iDraw;
+  (function(){
+    const iDraw = window.iDraw;
     const app = document.querySelector('#app');
-    const idraw = new IDraw(app, {
+    const idraw = new iDraw(app, {
       width: 600,
       height: 400,
       contextWidth: 600,
