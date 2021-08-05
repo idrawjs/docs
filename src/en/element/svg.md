@@ -61,10 +61,10 @@ const elementSVG = {
 
 ## Demo Preview
 
-[More Demo >>](https://idrawjs.github.io/playground/?demo=elem-svg)
+[More Demo >>](https://idraw.js.org/playground/?demo=elem-svg)
 
 <iframe 
-    src="https://idrawjs.github.io/playground/?demo=elem-svg&header=false&sider=false&default-editor-split=37" 
+    src="https://idraw.js.org/playground/?demo=elem-svg&header=false&sider=false&default-editor-split=37" 
     width="1000" height="540" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>
