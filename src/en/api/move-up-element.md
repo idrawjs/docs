@@ -2,7 +2,7 @@
 
 ## Introduction
 
-`moveUpElement` It receives a Element's uuid to lower the index position for rising layer and then trigger re-rendering
+`moveUpElement` It receives a Element's uuid to lower the index position for moving up element's layer and then trigger re-rendering
 
 :::tip
 If you update the Element'index successfully by `moveUpElement` then it will trigger event  `"changeData"` to re-render image.
