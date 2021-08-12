@@ -47,10 +47,10 @@ idraw.selectElement(resultData.elements[0].uuid);
 
 ## 示例
 
-[Demo完整预览 Playground >>](https://idrawjs.github.io/playground/?demo=api-selectElement)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-selectElement)
 
 <iframe 
-  src="https://idrawjs.github.io/playground/?demo=api-selectElement&header=false&sider=false&default-editor-split=37" 
+  src="https://idraw.js.org/playground/?demo=api-selectElement&header=false&sider=false&default-editor-split=37" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

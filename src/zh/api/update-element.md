@@ -50,10 +50,10 @@ idraw.updateData(resultData.elements[0]);
 
 ## 示例
 
-[Demo完整预览 Playground >>](https://idrawjs.github.io/playground/?demo=api-updateElement)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-updateElement)
 
 <iframe 
-  src="https://idrawjs.github.io/playground/?demo=api-updateElement&header=false&sider=false&default-editor-split=37" 
+  src="https://idraw.js.org/playground/?demo=api-updateElement&header=false&sider=false&default-editor-split=37" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

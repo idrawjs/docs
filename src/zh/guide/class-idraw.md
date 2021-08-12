@@ -59,10 +59,10 @@ type Options = {
 
 ### Options 效果预览
 
-[Demo完整预览 Playground >>](https://idrawjs.github.io/playground/?demo=options)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=options)
 
 <iframe 
-    src="https://idrawjs.github.io/playground/?demo=options&header=false&sider=false&default-editor-split=37" 
+    src="https://idraw.js.org/playground/?demo=options&header=false&sider=false&default-editor-split=37" 
     width="1000" height="440" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>
@@ -113,10 +113,10 @@ type Config = {
 
 ### Config 效果预览
 
-[Demo完整预览 Playground >>](https://idrawjs.github.io/playground/?demo=config)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=config)
 
 <iframe 
-    src="https://idrawjs.github.io/playground/?demo=config&header=false&sider=false&default-editor-split=37" 
+    src="https://idraw.js.org/playground/?demo=config&header=false&sider=false&default-editor-split=37" 
     width="1000" height="540" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>

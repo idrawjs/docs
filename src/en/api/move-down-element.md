@@ -46,10 +46,10 @@ idraw.moveDownElement(
 
 ## Example
 
-[More Demo >>](https://idrawjs.github.io/playground/?demo=api-moveDownElement)
+[More Demo >>](https://idraw.js.org/playground/?demo=api-moveDownElement)
 
 <iframe 
-  src="https://idrawjs.github.io/playground/?demo=api-moveDownElement&header=false&sider=false&default-editor-split=37" 
+  src="https://idraw.js.org/playground/?demo=api-moveDownElement&header=false&sider=false&default-editor-split=37" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>
