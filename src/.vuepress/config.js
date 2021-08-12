@@ -62,8 +62,8 @@ module.exports = {
               '/en/api/move-up-element',
               '/en/api/move-down-element',
               '/en/api/scale',
-              '/en/api/scroll-x',
-              '/en/api/scroll-y',
+              '/en/api/scroll-left',
+              '/en/api/scroll-top',
               '/en/api/event',
             ]
           },
@@ -115,8 +115,8 @@ module.exports = {
               '/zh/api/move-down-element',
               '/zh/api/reset-size',
               '/zh/api/scale',
-              '/zh/api/scroll-x',
-              '/zh/api/scroll-y',
+              '/zh/api/scroll-left',
+              '/zh/api/scroll-top',
               '/zh/api/event',
             ]
           },
