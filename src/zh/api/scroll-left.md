@@ -1,12 +1,12 @@
-# scrollX
+# scrollTop
 
 ## 说明
 
-`scrollX` 在画布存在X滚动轴时候，设置滚动的偏移量
+`scrollLeft` 在画布存在X滚动轴时候，设置滚动的偏移量
 
 ## 参数
 
-- `{number}` `scrollX` X滚动轴的偏移位置
+- `{number}` `scrollLeft` X滚动轴的偏移位置
 
 ## 返回值
 
@@ -42,15 +42,15 @@ idraw.setData({
 });
 
 idraw.scale(2);
-idraw.scrollX(-200);
+idraw.scrollLeft(200);
 ```
 
 ## 示例
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-scrollX)
+[Demo完整预览 Playground >>](https://idrawjs.github.io/playground/?demo=api-scrollLeft)
 
 <iframe 
-  src="https://idraw.js.org/playground/?demo=api-scrollX&header=false&sider=false&default-editor-split=37" 
+  src="https://idrawjs.github.io/playground/?demo=api-scrollLeft&header=false&sider=false&default-editor-split=37" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

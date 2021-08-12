@@ -1,12 +1,12 @@
-# scrollY
+# scrollTop
 
 ## 说明
 
-`scrollY` 在画布存在Y滚动轴时候，设置滚动的偏移量
+`scrollTop` 在画布存在Y滚动轴时候，设置滚动的偏移量
 
 ## 参数
 
-- `{number}` `scrollY` Y滚动轴的偏移位置
+- `{number}` `scrollTop` Y滚动轴的偏移位置
 
 ## 返回值
 
@@ -42,15 +42,15 @@ idraw.setData({
 });
 
 idraw.scale(2);
-idraw.scrollY(-200);
+idraw.scrollTop(200);
 ```
 
 ## 示例
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-scrollY)
+[Demo完整预览 Playground >>](https://idrawjs.github.io/playground/?demo=api-scrollTop)
 
 <iframe 
-  src="https://idraw.js.org/playground/?demo=api-scrollY&header=false&sider=false&default-editor-split=37" 
+  src="https://idrawjs.github.io/playground/?demo=api-scrollTop&header=false&sider=false&default-editor-split=37" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>
