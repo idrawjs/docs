@@ -27,8 +27,13 @@ type Element = {
   w: number,
   h: number,
   angle?: number,
-  lock?: boolean,
   desc: any, // 不同元素的描述内容不一样
+  // operation 为元素操控配置
+  operation?: {
+    lock?: boolean, 
+    invisible?: boolean,
+  }
+  extension?: {[key: string]: any} | any;
 }
 ```
 
@@ -44,8 +49,10 @@ type Element = {
 | w | 元素宽度 |`number`| - | `true` | - |
 | h | 元素高度 |`number`| - | `true` | - |
 | angle | 元素旋转角度 |`number`| `0` | `false` | `[0, 360]` |
-| lock | 是否锁住 |`boolean`| `false` | `false` | 元素锁住后就不能进行视图操作 |
 | desc | 元素描述内容 |`object` (详情请查看各元素描述内容) | - | `true` | - |
+| operation.lock | 元素是否锁住 |`boolean`| `false` | `false` | 元素锁住后就不能进行视图操作 |
+| operation.invisible | 元素是否不可见 |`boolean`| `false` | `false` | 元素不可见就不会渲染 |
+| extension | 拓展属性 |`{[key: string]: any} | any`| - | `false` | 用于自定义的拓展声明 |
 
 ## 画图元素的使用
 
