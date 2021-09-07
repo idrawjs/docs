@@ -108,6 +108,7 @@ module.exports = {
               '/zh/api/get-data',
               '/zh/api/select-element',
               '/zh/api/select-element-by-index',
+              '/zh/api/get-selected-elements',
               '/zh/api/update-element',
               '/zh/api/add-element',
               '/zh/api/delete-element',
