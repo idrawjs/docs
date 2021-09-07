@@ -53,6 +53,8 @@ type Options = {
 | devicePixelRatio | Device pixel scale |`number`| `1` |`false`| - |
 | onlyRender | Render only disable handle elements | `boolean` | `false` |`false`| - |
 | maxRecords | Maximum operation record | `number` | `10` |`false`|For redo and undo|
+| disableKeyboard | Listen keyboard event | `boolean` | `false` |`false`|-|
+
 
 
 ### Options Preivew
