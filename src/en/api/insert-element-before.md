@@ -1,4 +1,4 @@
-# addElement
+# insertElementBefore
 
 ## Introduction
 
@@ -7,6 +7,7 @@
 ## Arguments
 
 - `{object}` `element`  [More Element Infomation>>](./../element/info.md) .
+- `{string}` `uuid` 
 
 ## Returns
 
@@ -28,8 +29,8 @@ const options = {
 const idraw = new iDraw(app, options);
 idraw.setData({ elements: [] });
 
-idraw.addElement({
-  name: "rect",
+idraw.insertElementBefore({
+  name: "rect-xxx",
   x: 140,
   y: 120,
   w: 200,
@@ -41,16 +42,16 @@ idraw.addElement({
     borderWidth: 4,
     borderColor: "#ff6032",
   },
-});
+}, idraw.getData().elements[2].uuid);
 
 ```
 
 ## Example
 
-[More Demo >>](https://idraw.js.org/playground/?demo=api-addElement)
+[More Demo >>](https://idraw.js.org/playground/?demo=api-insertElementBefore)
 
 <iframe 
-  src="https://idraw.js.org/playground/?demo=api-addElement&header=false&sider=false&default-editor-split=37" 
+  src="https://idraw.js.org/playground/?demo=api-insertElementBefore&header=false&sider=false&default-editor-split=37" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

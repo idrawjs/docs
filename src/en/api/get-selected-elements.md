@@ -1,4 +1,4 @@
-# updateElement
+# getSelectedElements
 
 ## Introduction
 
@@ -6,12 +6,12 @@
 
 ## Arguments
 
-- `{object}` `element`  [More Element Infomation>>](./../element/info.md) .
+> None
 
 
 ## Returns
 
-> None
+- `{TypeElement}[]`
 
 ## Usage
 
@@ -34,18 +34,17 @@ const options = {
 const idraw = new iDraw(app, options);
 idraw.setData(data);
 const resultData = idraw.getData();
+idraw.selectElement(resultData.elements[0].uuid);
 
-resultData.elements[0].desc.color = '#f0f0f0';
-
-idraw.updateData(resultData.elements[0]);
+const elems = idraw.getSelectedElements();
 ```
 
 ## Example
 
-[More Demo >>](https://idraw.js.org/playground/?demo=api-updateElement)
+[More Demo >>](https://idraw.js.org/playground/?demo=api-getSelectedElements)
 
 <iframe 
-  src="https://idraw.js.org/playground/?demo=api-updateElement&header=false&sider=false&default-editor-split=37" 
+  src="https://idraw.js.org/playground/?demo=api-getSelectedElements&header=false&sider=false&default-editor-split=37" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

@@ -41,6 +41,7 @@ type Options = {
   devicePixelRatio: number,
   onlyRender: boolean,
   maxRecords: number,
+  disableKeyboard: boolean,
 }
 ```
 
@@ -55,6 +56,7 @@ type Options = {
 | devicePixelRatio | 设备像素比例 |`number`| `1` |`false`| - |
 | onlyRender | 是否只渲染 | `boolean` | `false` |`false`| - |
 | maxRecords | 最大操作记录 | `number` | `10` |`false`|用于“撤销”与“重写”操作|
+| disableKeyboard | 是否禁用键盘监听 | `boolean` | `false` |`false`|用于监听对画图操作的键盘快捷键`复制`、`粘贴`和`剪切`等操作|
 
 
 ### Options 效果预览

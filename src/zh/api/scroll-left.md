@@ -1,4 +1,4 @@
-# scrollTop
+# scrollLeft
 
 ## 说明
 

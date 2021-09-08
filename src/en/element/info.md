@@ -27,8 +27,12 @@ type Element = {
   w: number,
   h: number,
   angle?: number,
-  lock?: boolean,
   desc: any, // Different element has different description
+  operation?: {
+    lock?: boolean,
+    invisible?: boolean,
+  },
+  extension?: {[key: string]: any} | any;
 }
 ```
 
@@ -46,6 +50,9 @@ type Element = {
 | angle | Element rotation angle |`number`| `0` | `false` | `[0, 360]` |
 | lock | Set the lock-staus of element |`boolean`| `false` | `false` | The view operation cannot be controlled after the element is locked |
 | desc | Description of different elements |`object` (Please check the description of each element for details) | - | `true` | - |
+| operation.lock |  Set the lock-staus of element |`boolean`| `false` | `false` | The view operation cannot be controlled after the element is locked |
+| operation.invisible | - |`boolean`| `false` | `false` | - |
+| extension | Extensions |`{[key: string]: any} | any`| - | - |  |
 
 ## Usage of Elements
 

@@ -1,19 +1,19 @@
-# updateElement
+# getSelectedElements
 
-## Introduction
+## 说明
 
-// TODO
-
-## Arguments
-
-- `{object}` `element`  [More Element Infomation>>](./../element/info.md) .
+`getSelectedElements` 读取被选中的元素数组
 
 
-## Returns
+## 参数
 
-> None
+无
 
-## Usage
+## 返回值
+
+- `{TypeElement}[]` 选中元素的数组
+
+## 用法
 
 ```js
 import iDraw from 'idraw';
@@ -34,18 +34,17 @@ const options = {
 const idraw = new iDraw(app, options);
 idraw.setData(data);
 const resultData = idraw.getData();
+idraw.selectElement(resultData.elements[0].uuid);
 
-resultData.elements[0].desc.color = '#f0f0f0';
-
-idraw.updateData(resultData.elements[0]);
+const elems = idraw.getSelectedElements();
 ```
 
-## Example
+## 示例
 
-[More Demo >>](https://idraw.js.org/playground/?demo=api-updateElement)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-getSelectedElements)
 
 <iframe 
-  src="https://idraw.js.org/playground/?demo=api-updateElement&header=false&sider=false&default-editor-split=37" 
+  src="https://idraw.js.org/playground/?demo=api-getSelectedElements&header=false&sider=false&default-editor-split=37" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>
