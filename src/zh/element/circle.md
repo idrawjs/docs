@@ -13,7 +13,7 @@ type Circle = {
   h: number,
   angle: number,
   desc: {
-    color: string,
+    bgColor: string,
     borderRadius?: string,
     borderWidth?: number,
     borderColor?: number,
@@ -31,7 +31,7 @@ Circle 元素的`desc`属性
 
 ```ts
 type CircleDesc = {
-  color?: string,
+  bgColor?: string,
   bgColor?: string,
   borderWidth?: number,
   borderColor?: string,
@@ -43,7 +43,7 @@ type CircleDesc = {
 
 |属性|说明|类型|默认值|是否必填|备注|
 |--|--|--|--|--|--|
-| color | 圆形颜色 |`string`| - | `true` | 例如 `#000000` |
+| bgColor | 圆形颜色 |`string`| - | `true` | 例如 `#000000` |
 | borderRadius | 边框角圆形半径 |`number`| `0` | `false` | - |
 | borderWidth | 边框宽度 |`number`| `0` | `false` | - |
 | borderColor | 边框颜色 |`string`| - | `false` | 例如 `#000000`  |
@@ -61,7 +61,7 @@ const elementCircle = {
   angle: 0,
   type: "circle",
   desc: {
-    color: "#d5f5f9",
+    bgColor: "#d5f5f9",
     borderRadius: 10,
     borderWidth: 4,
     borderColor: "#3f51b5",
