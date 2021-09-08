@@ -13,7 +13,7 @@ type Rect = {
   h: number,
   angle: number,
   desc: {
-    color: string,
+    bgColor: string,
     borderRadius?: string,
     borderWidth?: number,
     borderColor?: number,
@@ -32,10 +32,10 @@ The Data-Type of `Rect.desc`
 
 ```ts
 type RectDesc = {
-  color?: string,
-  bgColor?: string,
+  bgColor: string,
+  borderRadius?: string,
   borderWidth?: number,
-  borderColor?: string,
+  borderColor?: number,
 }
 ```
 
@@ -62,7 +62,7 @@ const elementRect = {
   angle: 30,
   type: "rect",
   desc: {
-    color: "#d5f5f9",
+    bgColor: "#d5f5f9",
     borderRadius: 10,
     borderWidth: 2,
     borderColor: "#3f51b5",
