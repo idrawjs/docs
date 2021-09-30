@@ -128,6 +128,7 @@ module.exports = {
               '/zh/api/scroll-left',
               '/zh/api/scroll-top',
               '/zh/api/event',
+              '/zh/api/export-data-url',
             ]
           },
         ]
