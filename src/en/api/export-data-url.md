@@ -7,7 +7,7 @@
 ## Arguments
 
 - `{string}` `type` Image type, `'image/png'` | `'image/jpeg'`
-- `{number}` `quality` Image quality, rang between 0-1。
+- `{number}` `quality` Image quality, rang between 0-1
 
 
 ## Returns
