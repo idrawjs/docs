@@ -70,6 +70,7 @@ module.exports = {
               '/en/api/scroll-left',
               '/en/api/scroll-top',
               '/en/api/event',
+              '/en/api/export-data-url',
             ]
           },
         ]
