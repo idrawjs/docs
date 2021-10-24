@@ -31,6 +31,8 @@ type Element = {
   operation?: {
     lock?: boolean,
     invisible?: boolean,
+    disableScale?: boolean,
+    disableRotate?: boolean,
   },
   extension?: {[key: string]: any} | any;
 }
@@ -52,6 +54,8 @@ type Element = {
 | desc | Description of different elements |`object` (Please check the description of each element for details) | - | `true` | - |
 | operation.lock |  Set the lock-staus of element |`boolean`| `false` | `false` | The view operation cannot be controlled after the element is locked |
 | operation.invisible | - |`boolean`| `false` | `false` | - |
+| operation.disableScale | Disable scaling for element  |`boolean`| - | `false` |Disable scaling for element and hide controllers of scaling |
+| operation.disableRotate | Disable rotate for element |`boolean`| - | `false` | Disable scaling for element and hide controllers of rotating|
 | extension | Extensions |`{[key: string]: any} | any`| - | - |  |
 
 ## Usage of Elements

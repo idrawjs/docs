@@ -76,7 +76,7 @@ type Options = {
 type Config = {
   elementWrapper: {
     color: string,
-    dotSize: number,
+    controllerSize: number,
     lineWidth: number,
     lineDash: number[],
   },
@@ -101,7 +101,7 @@ type Config = {
 |--|--|--|--|--|--|
 | color | 元素操作颜色 |`string`| `#2ab6f1` | `false` | - |
 | lockColor | 元素禁用颜色 |`string`| `#aaaaaa` | `false` | - |
-| dotSize | 操作点尺寸 |`number`| `8` | `false` | - |
+| controllerSize | 操作点尺寸 |`number`| `8` | `false` | - |
 | lineWidth | 元素操作线条宽度 |`number`| `1` | `false` | - |
 | lineDash | 元素操作线条虚线尺寸 |`number[]`| `[4, 3]` | `false` | - |
 
