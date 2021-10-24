@@ -54,10 +54,8 @@ type Element = {
 | desc | 元素描述内容 |`object` (详情请查看各元素描述内容) | - | `true` | - |
 | operation.lock | 元素是否锁住 |`boolean`| `false` | `false` | 元素锁住后就不能进行视图操作 |
 | operation.invisible | 元素是否不可见 |`boolean`| `false` | `false` | 元素不可见就不会渲染 |
-| operation.disableScale | 元素是否禁用缩放 |`boolean`| - | `false` | 元素禁用缩放，
-就不显示缩放的控制点 |
-| operation.disableRotate | 元素是否禁用旋转 |`boolean`| - | `false` | 元素禁用缩放，
-就不显示旋转的控制点 |
+| operation.disableScale | 元素是否禁用缩放 |`boolean`| - | `false` | 元素禁用缩放，就不显示缩放的控制点 |
+| operation.disableRotate | 元素是否禁用旋转 |`boolean`| - | `false` | 元素禁用缩放，就不显示旋转的控制点 |
 | extension | 拓展属性 |`{[key: string]: any} | any`| - | `false` | 用于自定义的拓展声明 |
 
 ## 画图元素的使用
