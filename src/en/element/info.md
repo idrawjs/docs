@@ -33,6 +33,7 @@ type Element = {
     invisible?: boolean,
     disableScale?: boolean,
     disableRotate?: boolean,
+    limitRatio?: boolean,
   },
   extension?: {[key: string]: any} | any;
 }
@@ -56,6 +57,7 @@ type Element = {
 | operation.invisible | - |`boolean`| `false` | `false` | - |
 | operation.disableScale | Disable scaling for element  |`boolean`| - | `false` |Disable scaling for element and hide controllers of scaling |
 | operation.disableRotate | Disable rotate for element |`boolean`| - | `false` | Disable scaling for element and hide controllers of rotating|
+| operation.limitRatio | Limit element width and height ratio |`boolean`| - | `false` | When the element is scaled, it is scaled according to its width and height ratio |
 | extension | Extensions |`{[key: string]: any} | any`| - | - |  |
 
 ## Usage of Elements
