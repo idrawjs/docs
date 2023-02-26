@@ -34,6 +34,7 @@ type Element = {
     invisible?: boolean,
     disableScale?: boolean,
     disableRotate?: boolean,
+    limitRatio?: boolean,
   }
   extension?: {[key: string]: any} | any;
 }
@@ -56,6 +57,7 @@ type Element = {
 | operation.invisible | 元素是否不可见 |`boolean`| `false` | `false` | 元素不可见就不会渲染 |
 | operation.disableScale | 元素是否禁用缩放 |`boolean`| - | `false` | 元素禁用缩放，就不显示缩放的控制点 |
 | operation.disableRotate | 元素是否禁用旋转 |`boolean`| - | `false` | 元素禁用缩放，就不显示旋转的控制点 |
+| operation.limitRatio | 元素是否限制宽高比例 |`boolean`| - | `false` | 在元素缩放时候，按照其宽高比例进行缩放 |
 | extension | 拓展属性 |`{[key: string]: any} | any`| - | `false` | 用于自定义的拓展声明 |
 
 ## 画图元素的使用
