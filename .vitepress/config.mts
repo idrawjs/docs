@@ -6,6 +6,9 @@ export default defineConfig({
   description: "A simple JavaScript framework for Drawing on the web.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: {
+      src: '/src/assets/idraw.png'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -13,10 +16,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Essentials',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Introcution', link: '/markdown-examples' },
+          { text: 'Qick Started', link: '/api-examples' }
         ]
       }
     ],
