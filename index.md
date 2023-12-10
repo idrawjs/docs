@@ -4,22 +4,24 @@ layout: home
 
 hero:
   name: "iDraw.js"
-  text: "A simple JavaScript framework for Drawing on the web."
-  tagline: My great project tagline
+  text: "Drawing easier on the web."
+  tagline: A simple JavaScript framework for Drawing on the web.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Quick Started
+      link: /quick-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: iDraw Studio
+      link: /studio
+  image: /src/assets/idraw.png
+
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: High web compatibility
+    details: All based on Canvas 2D API drawing
+  - title: Extremely simple way to use
+    details: There are no complicated operations, only a few simple APIs for drawing operations
+  - title: Data-Driven drawing
+    details: Rely on data to control drawing operations
 ---
 

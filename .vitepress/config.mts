@@ -11,7 +11,8 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'API', link: '/markdown-examples' },
+      { text: 'Playground', link: '/playground' }
     ],
 
     sidebar: [
@@ -25,7 +26,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/idrawjs/idraw' }
     ]
   }
 })
