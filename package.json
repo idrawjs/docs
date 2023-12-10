@@ -1,10 +1,11 @@
 {
   "version": "0.0.1",
   "scripts": {
-    "docs:dev": "vuepress dev src",
-    "docs:build": "vuepress build src",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
     "dev": "npm run docs:dev",
-    "build": "npm run docs:build && node ./scripts/after-build.js"
+    "build": "npm run docs:build && node ./scripts/after-build.js",
+    "docs:preview": "vitepress preview"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "vitepress": "1.0.0-rc.31",
     "vuepress": "^1.9.9"
   }
 }
