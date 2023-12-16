@@ -36,10 +36,8 @@ npm install idraw
     const app = document.querySelector('#app');
     const idraw = new iDraw(app, {
       width: 600,
-      height: 400,
-      contextWidth: 600,
-      contextHeight: 400,
-      devicePixelRatio: 4,
+      height: 400, 
+      devicePixelRatio: 2,
     });
   })()
 </script>

@@ -38,8 +38,8 @@ const data = {
       h: 100,
       angle: 30,
       type: "rect",
-      desc: {
-        bgColor: "#d5f5f9",
+      detail: {
+        background: "#d5f5f9",
         borderRadius: 10,
         borderWidth: 2,
         borderColor: "#3f51b5",

@@ -6,12 +6,12 @@
 
 ## Arguments
 
-- `{object}` `element`  [More Element Infomation>>](./../element/info.md) .
-- `{number}` `index` 
+- `{object}` `element` [More Element Infomation>>](./../element/info.md) .
+- `{number}` `index`
 
 ## Returns
 
-- `{string | null}` 
+- `{string | null}`
 
 ## Usage
 
@@ -24,34 +24,36 @@ const options = {
   height: 400,
   contextWidth: 600,
   contextHeight: 400,
-  devicePixelRatio: 4,
-}
+  devicePixelRatio: 4
+};
 const idraw = new iDraw(app, options);
 idraw.setData({ elements: [] });
 
-idraw.insertElementBeforeIndex({
-  name: "rect-xxx",
-  x: 140,
-  y: 120,
-  w: 200,
-  h: 100,
-  type: "rect",
-  desc: {
-    bgColor: "#f7d3c1",
-    borderRadius: 20,
-    borderWidth: 4,
-    borderColor: "#ff6032",
+idraw.insertElementBeforeIndex(
+  {
+    name: 'rect-xxx',
+    x: 140,
+    y: 120,
+    w: 200,
+    h: 100,
+    type: 'rect',
+    detail: {
+      background: '#f7d3c1',
+      borderRadius: 20,
+      borderWidth: 4,
+      borderColor: '#ff6032'
+    }
   },
-}, 2);
-
+  2
+);
 ```
 
 ## Example
 
 [More Demo >>](https://idraw.js.org/playground/?demo=api-insertElementBeforeIndex)
 
-<iframe 
-  src="https://idraw.js.org/playground/?demo=api-insertElementBeforeIndex&header=false&sider=false&default-editor-split=37" 
+<iframe class="idraw-playground-preview" 
+  src="https://idraw.js.org/playground/?demo=api-insertElementBeforeIndex&header=false&sider=false&default-editor-split=50" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

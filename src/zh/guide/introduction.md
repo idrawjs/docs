@@ -19,42 +19,36 @@ import iDraw from 'idraw';
 const data = {
   elements: [
     {
-      name: "rect-001",
+      name: 'rect-001',
       x: 160,
       y: 80,
       w: 200,
       h: 200,
-      angle: 0,
-      type: "text",
-      desc: {
+      type: 'text',
+      detail: {
         text: 'Hello World',
-        color: "#3f51b5",
+        color: '#3f51b5',
         fontSize: 60,
         textAlign: 'center',
         borderRadius: 10,
         borderWidth: 2,
-        borderColor: "#3f51b5",
-      },
-    },
-  ],
-}
+        borderColor: '#3f51b5'
+      }
+    }
+  ]
+};
 
 const app = document.querySelector('#app');
 const idraw = new iDraw(app, {
   width: 600,
   height: 400,
-  contextWidth: 600,
-  contextHeight: 400,
-  devicePixelRatio: 4,
+  devicePixelRatio: 2
 });
-idraw.setData(data)
-idraw.selectElementByIndex(0);
+idraw.setData(data);
 ```
 
-
-<iframe 
-  src="https://idraw.js.org/playground/?demo=elem-text&header=false&sider=false&default-editor-split=37" 
+<iframe class="idraw-playground-preview" 
+  src="https://idraw.js.org/playground/?demo=elem-text&header=false&sider=false&default-editor-split=50" 
   width="1000" height="450" frameborder="no" border="0"
   style="border: 1px solid #cecece"
 ></iframe>
-

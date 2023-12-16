@@ -2,17 +2,17 @@
 
 ## Introduction
 
-`resetSize` The function can be used to reset the size of Drawing-Board and Drawing-Context 
+`resetSize` The function can be used to reset the size of Drawing-Board and Drawing-Context
 
 ## Arguments
 
-- `{object}` `options` 
-  - `{number}` `options.width`  Drawing-Board width (`Not required`)
+- `{object}` `options`
+  - `{number}` `options.width` Drawing-Board width (`Not required`)
   - `{number}` `options.height` Drawing-Board height (`Not required`)
   - `{number}` `options.contextWidth` Drawing-Context width (`Not required`)
   - `{number}` `options.contextHeight` Drawing-Context height (`Not required`)
   - `{number}` `options.devicePixelRatio` Device pixel scale (`Not required`)
- 
+
 ## Returns
 
 > None
@@ -28,20 +28,22 @@ const options = {
   height: 400,
   contextWidth: 600,
   contextHeight: 400,
-  devicePixelRatio: 4,
-}
+  devicePixelRatio: 4
+};
 const idraw = new iDraw(app, options, {
-  scrollWrapper: { use: true, }
+  scrollWrapper: { use: true }
 });
 idraw.setData({
-  element: [ /* ... */ ]
+  element: [
+    /* ... */
+  ]
 });
 
 idraw.resetSize({
   width: 300,
   height: 200,
   contextWidth: 600,
-  contextHeight: 400,
+  contextHeight: 400
 });
 ```
 
@@ -49,8 +51,8 @@ idraw.resetSize({
 
 [More Demo >>](https://idraw.js.org/playground/?demo=api-resetSize)
 
-<iframe 
-  src="https://idraw.js.org/playground/?demo=api-resetSize&header=false&sider=false&default-editor-split=37" 
+<iframe class="idraw-playground-preview" 
+  src="https://idraw.js.org/playground/?demo=api-resetSize&header=false&sider=false&default-editor-split=50" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

@@ -7,12 +7,6 @@
 ## 参数
 
 - `{object}` `data` 画图数据对象
-- `{object}` `options` 设置数据选项
-  - `{boolean}` `options.triggerChangeEvent` 是否触发数据变化事件
-
-:::tip
-如果设置了 `options.triggerChangeEvent = true`，在 `idraw.on('changeData', (e) => { })` 中会监听到 `"changeData"` 事件，并且在事件的回调参数会传入最新变化的 `data` 数据。
-:::
 
 ## 返回值
 
@@ -27,30 +21,28 @@ const app = document.querySelector('#app');
 const options = {
   width: 600,
   height: 400,
-  contextWidth: 600,
-  contextHeight: 400,
-  devicePixelRatio: 4,
-}
+  devicePixelRatio: 2
+};
 const idraw = new iDraw(app, options);
 const data = {
   elements: [
     {
-      name: "rect",
+      name: 'rect',
       x: 160,
       y: 120,
       w: 200,
       h: 100,
       angle: 30,
-      type: "rect",
-      desc: {
-        bgColor: "#d5f5f9",
+      type: 'rect',
+      detail: {
+        background: '#d5f5f9',
         borderRadius: 10,
         borderWidth: 2,
-        borderColor: "#3f51b5",
-      },
+        borderColor: '#3f51b5'
+      }
     }
   ]
-}
+};
 idraw.setData(data);
 ```
 
@@ -58,8 +50,8 @@ idraw.setData(data);
 
 [Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-setData)
 
-<iframe 
-    src="https://idraw.js.org/playground/?demo=api-setData&header=false&sider=false&default-editor-split=37" 
+<iframe class="idraw-playground-preview" 
+    src="https://idraw.js.org/playground/?demo=api-setData&header=false&sider=false&default-editor-split=50" 
     width="1000" height="540" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>

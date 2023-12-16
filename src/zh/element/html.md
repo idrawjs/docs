@@ -6,56 +6,54 @@
 
 ```ts
 type HTML = {
-  type: 'html',
-  x: number,
-  y: number,
-  w: number,
-  h: number,
-  angle: number,
-  desc: {
-    html: string,
-  }
-}
+  type: 'html';
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+  angle: number;
+  detail: {
+    html: string;
+  };
+};
 ```
 
-## HTML.desc 详解
+## HTML.detail 详解
 
 元素的基本属性详情可以看 [元素介绍-数据基本格式](./info.md#数据基本格式) 。
 
-### HTML.desc 数据格式
+### HTML.detail 数据格式
 
-HTML 元素的`desc`属性
+HTML 元素的`detail`属性
 
 ```ts
 type HTMLDesc = {
-  html: string,
-}
+  html: string;
+};
 ```
 
-### HTML.desc 数据属性内容
+### HTML.detail 数据属性内容
 
-
-|属性|说明|类型|默认值|是否必填|备注|
-|--|--|--|--|--|--|
-| html | HTML代码片段 |`string`| - | `true` | - |
+| 属性 | 说明         | 类型     | 默认值 | 是否必填 | 备注 |
+| ---- | ------------ | -------- | ------ | -------- | ---- |
+| html | HTML代码片段 | `string` | -      | `true`   | -    |
 
 ::: warning
-注意 `desc.html` 里的 HTML代码片段暂时不支持依赖资源渲染，例如 `<img />` 标签或者 `css`的 `background-image` 属性
+注意 `detail.html` 里的 HTML代码片段暂时不支持依赖资源渲染，例如 `<img />` 标签或者 `css`的 `background-image` 属性
 :::
-
 
 ## 完整数据示例
 
 ```js
 const elementHTML = {
-  name: "html",
+  name: 'html',
   x: 200,
   y: 120,
   w: 150,
   h: 100,
-  type: "html",
+  type: 'html',
   angle: 0,
-  desc: {
+  detail: {
     html: `
       <style>
       .btn-box {
@@ -101,18 +99,17 @@ const elementHTML = {
           </button> 
         </div>
       </div>
-    `,
-  },
-}
+    `
+  }
+};
 ```
-
 
 ## 效果预览
 
 [Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-html)
 
-<iframe 
-    src="https://idraw.js.org/playground/?demo=elem-html&header=false&sider=false&default-editor-split=37" 
+<iframe class="idraw-playground-preview" 
+    src="https://idraw.js.org/playground/?demo=elem-html&header=false&sider=false&default-editor-split=50" 
     width="1000" height="540" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>

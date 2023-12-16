@@ -7,11 +7,11 @@
 ## Arguments
 
 - `{object}` `data` Drawing-Data
-- `{object}` `options` 
+- `{object}` `options`
   - `{boolean}` `options.triggerChangeEvent` Trigger internal event named `changeData`.
 
 :::tip
-If it sets `options.triggerChangeEvent = true`, `idraw.on('changeData', (e) => { })` will listen `"changeData"` event and return  the lastest Changed-Drawing-Data in callback function.
+If it sets `options.triggerChangeEvent = true`, `idraw.on('changeData', (e) => { })` will listen `"changeData"` event and return the lastest Changed-Drawing-Data in callback function.
 :::
 
 ## Returns
@@ -29,28 +29,28 @@ const options = {
   height: 400,
   contextWidth: 600,
   contextHeight: 400,
-  devicePixelRatio: 4,
-}
+  devicePixelRatio: 4
+};
 const idraw = new iDraw(app, options);
 const data = {
   elements: [
     {
-      name: "rect",
+      name: 'rect',
       x: 160,
       y: 120,
       w: 200,
       h: 100,
       angle: 30,
-      type: "rect",
-      desc: {
-        bgColor: "#d5f5f9",
+      type: 'rect',
+      detail: {
+        background: '#d5f5f9',
         borderRadius: 10,
         borderWidth: 2,
-        borderColor: "#3f51b5",
-      },
+        borderColor: '#3f51b5'
+      }
     }
   ]
-}
+};
 idraw.setData(data);
 ```
 
@@ -58,8 +58,8 @@ idraw.setData(data);
 
 [More Demo](https://idraw.js.org/playground/?demo=api-setData)
 
-<iframe 
-    src="https://idraw.js.org/playground/?demo=api-setData&header=false&sider=false&default-editor-split=37" 
+<iframe class="idraw-playground-preview" 
+    src="https://idraw.js.org/playground/?demo=api-setData&header=false&sider=false&default-editor-split=50" 
     width="1000" height="540" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>

@@ -6,53 +6,50 @@ It is used to render HTML code snippet. The specific type is as follows:
 
 ```ts
 type HTML = {
-  type: 'html',
-  x: number,
-  y: number,
-  w: number,
-  h: number,
-  angle: number,
-  desc: {
-    html: string,
-  }
-}
+  type: 'html';
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+  angle: number;
+  detail: {
+    html: string;
+  };
+};
 ```
 
-## HTML.desc
+## HTML.detail
 
-The basic attribute details of the element can be viewed [Element's Detail
-#](./info.md#element-s-detail).
+The basic attribute details of the element can be viewed [Element's Detail #](./info.md#element-s-detail).
 
-### HTML.desc Data-Type
+### HTML.detail Data-Type
 
-The Data-Type of `HTML.desc`
+The Data-Type of `HTML.detail`
 
 ```ts
 type HTMLDesc = {
-  html: string,
-}
+  html: string;
+};
 ```
 
-### HTML.desc Properties
+### HTML.detail Properties
 
-
-|Property|Description|Type|Default|Required|Others|
-|--|--|--|--|--|--|
-| html | HTML code snippet |`string`| - | `true` | - |
-
+| Property | Description       | Type     | Default | Required | Others |
+| -------- | ----------------- | -------- | ------- | -------- | ------ |
+| html     | HTML code snippet | `string` | -       | `true`   | -      |
 
 ## Complete Data Example
 
 ```js
 const elementHTML = {
-  name: "html",
+  name: 'html',
   x: 200,
   y: 120,
   w: 150,
   h: 100,
-  type: "html",
+  type: 'html',
   angle: 0,
-  desc: {
+  detail: {
     html: `
       <style>
       .btn-box {
@@ -98,18 +95,17 @@ const elementHTML = {
           </button> 
         </div>
       </div>
-    `,
-  },
-}
+    `
+  }
+};
 ```
-
 
 ## Demo Preview
 
 [More Demo >>](https://idraw.js.org/playground/?demo=elem-html)
 
-<iframe 
-    src="https://idraw.js.org/playground/?demo=elem-html&header=false&sider=false&default-editor-split=37" 
+<iframe class="idraw-playground-preview" 
+    src="https://idraw.js.org/playground/?demo=elem-html&header=false&sider=false&default-editor-split=50" 
     width="1000" height="540" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>

@@ -22,8 +22,6 @@
     - `{number}` `screenInfo.position.left` 画布在距离画板左边位置距离
     - `{number}` `screenInfo.position.right` 画布在距离画板右边位置距离
 
-
-
 ```ts
 {
   size: {
@@ -51,13 +49,15 @@ const options = {
   height: 400,
   contextWidth: 600,
   contextHeight: 400,
-  devicePixelRatio: 4,
-}
+  devicePixelRatio: 4
+};
 const idraw = new iDraw(app, options, {
-  scrollWrapper: { use: true, }
+  scrollWrapper: { use: true }
 });
 idraw.setData({
-  elements: [ /* ... */ ]
+  elements: [
+    /* ... */
+  ]
 });
 
 idraw.scale(2);
@@ -67,8 +67,8 @@ idraw.scale(2);
 
 [Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-scale)
 
-<iframe 
-  src="https://idraw.js.org/playground/?demo=api-scale&header=false&sider=false&default-editor-split=37" 
+<iframe class="idraw-playground-preview" 
+  src="https://idraw.js.org/playground/?demo=api-scale&header=false&sider=false&default-editor-split=50" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

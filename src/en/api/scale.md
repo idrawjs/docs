@@ -6,24 +6,23 @@
 
 ## Arguments
 
-- `{number}` `scale` 
+- `{number}` `scale`
 
 ## Returns
 
 // TODO
 
-- `{object}` `screenInfo` 
-  - `{object}` `screenInfo.size` 
-    - `{number}` `screenInfo.size.x` 
-    - `{number}` `screenInfo.size.y` 
-    - `{number}` `screenInfo.size.w` 
-    - `{number}` `screenInfo.size.h` 
-  - `{object}` `screenInfo.position` 
-    - `{number}` `screenInfo.position.top` 
-    - `{number}` `screenInfo.position.bottom` 
-    - `{number}` `screenInfo.position.left` 
-    - `{number}` `screenInfo.position.right` 
-
+- `{object}` `screenInfo`
+  - `{object}` `screenInfo.size`
+    - `{number}` `screenInfo.size.x`
+    - `{number}` `screenInfo.size.y`
+    - `{number}` `screenInfo.size.w`
+    - `{number}` `screenInfo.size.h`
+  - `{object}` `screenInfo.position`
+    - `{number}` `screenInfo.position.top`
+    - `{number}` `screenInfo.position.bottom`
+    - `{number}` `screenInfo.position.left`
+    - `{number}` `screenInfo.position.right`
 
 ```ts
 {
@@ -52,13 +51,15 @@ const options = {
   height: 400,
   contextWidth: 600,
   contextHeight: 400,
-  devicePixelRatio: 4,
-}
+  devicePixelRatio: 4
+};
 const idraw = new iDraw(app, options, {
-  scrollWrapper: { use: true, }
+  scrollWrapper: { use: true }
 });
 idraw.setData({
-  elements: [ /* ... */ ]
+  elements: [
+    /* ... */
+  ]
 });
 
 idraw.scale(2);
@@ -68,8 +69,8 @@ idraw.scale(2);
 
 [More Demo >>](https://idraw.js.org/playground/?demo=api-scale)
 
-<iframe 
-  src="https://idraw.js.org/playground/?demo=api-scale&header=false&sider=false&default-editor-split=37" 
+<iframe class="idraw-playground-preview" 
+  src="https://idraw.js.org/playground/?demo=api-scale&header=false&sider=false&default-editor-split=50" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

@@ -18,17 +18,15 @@
 
 ### 具体事件详解
 
-|事件名称|说明|回调数据|其他|
-| -- | -- | -- | -- |
-| `error` | 异常事件 | `{Error}` 异常数据 | - |
-| `screenSelectElement` | 视图选中元素事件 | `{object}` 选中元素的对象 | - |
-| `screenMoveElementStart` | 视图移动元素开始事件 | `{object}` 选中元素的对象`uuid` 以及当前的所在画布的 `x`和`y`  | - |
-| `screenMoveElementEnd` | 视图移动元素结束事件 | `{object}` 选中元素的对象`uuid` 以及当前的所在画布的 `x`和`y` | - |
-| `screenChangeElement` | 视图修改元素内容事件 | `{object}` 选中元素的对象`uuid` 以及当前元素的 `x`、`y`、`width`、 `height`和`angle`数据 | - |
-| `changeData` | 修改画图数据 | `{object}` 画图内容数据 | - |
-| `changeScreen` | 修改画板画布视图 |`{object}` 视图变化数据  | - |
-
-
+| 事件名称                 | 说明                 | 回调数据                                                                                 | 其他 |
+| ------------------------ | -------------------- | ---------------------------------------------------------------------------------------- | ---- |
+| `error`                  | 异常事件             | `{Error}` 异常数据                                                                       | -    |
+| `screenSelectElement`    | 视图选中元素事件     | `{object}` 选中元素的对象                                                                | -    |
+| `screenMoveElementStart` | 视图移动元素开始事件 | `{object}` 选中元素的对象`uuid` 以及当前的所在画布的 `x`和`y`                            | -    |
+| `screenMoveElementEnd`   | 视图移动元素结束事件 | `{object}` 选中元素的对象`uuid` 以及当前的所在画布的 `x`和`y`                            | -    |
+| `screenChangeElement`    | 视图修改元素内容事件 | `{object}` 选中元素的对象`uuid` 以及当前元素的 `x`、`y`、`width`、 `height`和`angle`数据 | -    |
+| `changeData`             | 修改画图数据         | `{object}` 画图内容数据                                                                  | -    |
+| `changeScreen`           | 修改画板画布视图     | `{object}` 视图变化数据                                                                  | -    |
 
 ## 返回值
 
@@ -44,33 +42,37 @@ const options = {
   height: 400,
   contextWidth: 600,
   contextHeight: 400,
-  devicePixelRatio: 4,
-}
+  devicePixelRatio: 4
+};
 const idraw = new iDraw(app, options, {
-  scrollWrapper: { use: true, }
+  scrollWrapper: { use: true }
 });
 
 idraw.on('changeData', (e) => {
   console.log('changeData: event = ', e);
 });
 
-idraw.setData({
-  elements: [ /* ... */ ]
-}, {
-  triggerChangeEvent: true
-});
+idraw.setData(
+  {
+    elements: [
+      /* ... */
+    ]
+  },
+  {
+    triggerChangeEvent: true
+  }
+);
 
 idraw.off('changeData');
 idraw.setData(data);
-
 ```
 
 ## 示例
 
 [Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-on)
 
-<iframe 
-  src="https://idraw.js.org/playground/?demo=api-on&header=false&sider=false&default-editor-split=37" 
+<iframe class="idraw-playground-preview" 
+  src="https://idraw.js.org/playground/?demo=api-on&header=false&sider=false&default-editor-split=50" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>
