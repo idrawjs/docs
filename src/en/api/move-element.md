@@ -1,19 +1,19 @@
 # moveElement
 
-## 说明
+## Introduction
 
-`moveElement` 根据元素的`uuid`，将图画中对应的元素删除，并且触发重新渲染。
+`moveElement` deletes the corresponding element in the picture according to the `uuid` of the element and triggers re-rendering.
 
-## 参数
+## Arguments
 
-- `{string}` `uuid` 元素唯一ID
-- `{number[]}` `position` 将元素移动到指定索引位置。比如 `[1, 2]` 代表把元素移动到第2个元素（必须是`Group`类型）的第3个位置上。
+- `{string}` `uuid`
+- `{number[]}` `position` Moves the element to the specified index position. For example, `[1, 2]` means moving the element to the third position of the second element (must be of type `Group`).
 
-## 返回值
+## Returns
 
-> 无返回值
+> N/A
 
-## 用法
+## Usage
 
 ```js
 import { iDraw } from 'idraw';
@@ -37,12 +37,12 @@ const uuid = idraw.getData().elements[0].uuid;
 idraw.moveElement(uuid, { position: [1, 2] });
 ```
 
-## 示例
+## Example
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-deleteElement)
+[More Demo](https://idraw.js.org/playground/?demo=api-moveElement)
 
 <iframe class="idraw-playground-preview" 
-  src="https://idraw.js.org/playground/?demo=api-deleteElement&header=false&sider=false&default-editor-split=50" 
+  src="https://idraw.js.org/playground/?demo=api-moveElement&header=false&sider=false&default-editor-split=50" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

@@ -1,19 +1,20 @@
 # addElement
 
-## 说明
+## Introduction
 
-`addElement` 对图画添加元素，并且触发重新渲染。
+`addElement` Add elements to the drawing and trigger a rerender.
 
-## 参数
+## Arguments
 
-- `{object}` `element` 元素内容，具体元素数据格式可查询 [画图元素](./../element/info.md) 。
-- `{object}` `{ position?: number[] }`，可选配置，`position` 元素索引位置，比如 `[1, 2]` 代表把元素加入第2个元素（必须是`Group`类型）的第3个位置上。
+- `{object}` `element` [More Element Infomation>>](./../element/info.md) .
 
-## 返回值
+- `{object}` `{ position?: number[] }`，Optional configuration, `position` element index position, for example `[1, 2]` means adding the element to the third position of the second element (must be of type `Group`).
 
-- `{object}` 返回完整的data数据。
+## Returns
 
-## 用法
+- `{object}`
+
+## Usage
 
 ```js
 import { iDraw } from 'idraw';
@@ -43,9 +44,9 @@ idraw.addElement({
 });
 ```
 
-## 示例
+## Example
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-addElement)
+[More Demo >>](https://idraw.js.org/playground/?demo=api-addElement)
 
 <iframe class="idraw-playground-preview" 
   src="https://idraw.js.org/playground/?demo=api-addElement&header=false&sider=false&default-editor-split=50" 

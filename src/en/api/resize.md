@@ -1,21 +1,21 @@
 # resize
 
-## 说明
+## Introduction
 
-`resize` 可以对图画视图尺寸进行再次修改
+`resize` The drawing view size can be modified again
 
 ## 参数
 
-- `{object}` `options` 视图尺寸选项
-  - `{number}` `options.width` 画板宽度，非必选
-  - `{number}` `options.height` 画板高度，非必选
-  - `{number}` `options.devicePixelRatio` 设备像素比例，非必选
+- `{object}` `options`
+  - `{number}` `options.width`
+  - `{number}` `options.height`
+  - `{number}` `options.devicePixelRatio`
 
-## 返回值
+## Returns
 
-> 无返回值
+> N/A
 
-## 用法
+## Usage
 
 ```js
 import { iDraw } from 'idraw';
@@ -42,9 +42,9 @@ idraw.resetSize({
 });
 ```
 
-## 示例
+## Example
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-resize)
+[More Demo](https://idraw.js.org/playground/?demo=api-resize)
 
 <iframe class="idraw-playground-preview" 
   src="https://idraw.js.org/playground/?demo=api-resize&header=false&sider=false&default-editor-split=50" 

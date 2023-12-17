@@ -1,18 +1,18 @@
 # updateElement
 
-## 说明
+## Introduction
 
-`updateElement` 更新图画中的元素，并且触发重新渲染。
+`updateElement` updates an element in the drawing and triggers a re-rendering.
 
-## 参数
+## Arguments
 
-- `{object}` `element` 元素内容，具体元素数据格式可查询 [画图元素](./../element/info.md) 。
+- `{object}` `element`
 
-## 返回值
+## Returns
 
-> 无返回值
+> N/A
 
-## 用法
+## Usage
 
 ```js
 import { iDraw } from 'idraw';
@@ -39,9 +39,9 @@ elem.detail.color = '#f0f0f0';
 idraw.updateData(elem);
 ```
 
-## 示例
+## Example
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-updateElement)
+[More Demo >>](https://idraw.js.org/playground/?demo=api-updateElement)
 
 <iframe class="idraw-playground-preview" 
   src="https://idraw.js.org/playground/?demo=api-updateElement&header=false&sider=false&default-editor-split=50" 

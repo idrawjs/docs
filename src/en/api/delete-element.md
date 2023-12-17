@@ -1,18 +1,18 @@
 # deleteElement
 
-## 说明
+## Introduction
 
-`deleteElement` 根据元素的`uuid`，将图画中对应的元素删除，并且触发重新渲染。
+`addElement` Delete elements to the drawing and trigger a rerender.
 
-## 参数
+## Arugments
 
-- `{string}` `uuid` 元素唯一ID
+- `{string}` `uuid`
 
-## 返回值
+## Returns
 
-> 无返回值
+> None
 
-## 用法
+## Usage
 
 ```js
 import { iDraw } from 'idraw';
@@ -38,10 +38,12 @@ idraw.deleteElement(uuid);
 
 ## 示例
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-deleteElement)
+## Example
 
-<iframe class="idraw-playground-preview" 
-  src="https://idraw.js.org/playground/?demo=api-deleteElement&header=false&sider=false&default-editor-split=50" 
+[More Demo >>](https://idraw.js.org/playground/?demo=api-deleteElement)
+
+<iframe 
+  src="https://idraw.js.org/playground/?demo=api-deleteElement&header=false&sider=false&default-editor-split=37" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

@@ -1,18 +1,18 @@
 # selectElement
 
-## 说明
+## Introduction
 
-`selectElement` 根据元素的`UUID`选中图画中的元素。
+`selectElement` It receives a uuid of Element to select Element on Drawing-Image and then change the Element' status on Canvas.
 
-## 参数
+## Arguments
 
-- `{string}` `uuid` 元素唯一ID
+- `{string}` `uuid` Element's uuid
 
-## 返回值
+## Returns
 
-> 无返回值
+> None
 
-## 用法
+## Usage
 
 ```js
 import { iDraw } from 'idraw';
@@ -35,9 +35,9 @@ const resultData = idraw.getData();
 idraw.selectElement(resultData.elements[0].uuid);
 ```
 
-## 示例
+## Example
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-selectElement)
+[More Demo >>](https://idraw.js.org/playground/?demo=api-selectElement)
 
 <iframe class="idraw-playground-preview" 
   src="https://idraw.js.org/playground/?demo=api-selectElement&header=false&sider=false&default-editor-split=50" 

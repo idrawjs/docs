@@ -1,18 +1,18 @@
 # setData
 
-## 说明
+## Introduction
 
-`setData` 用于设置画图内容的数据，设置后会根据设置数据触发图画的重绘。
+`setData` The function receives a Drawing-Data to set drawing content. After that, it will re-render image base on Drawing-Data.
 
-## 参数
+## Arguments
 
-- `{object}` `data` 画图数据对象
+- `{object}` `data` Drawing-Data
 
-## 返回值
+## Returns
 
-> 无返回值
+> None
 
-## 用法
+## Usage
 
 ```js
 import { iDraw } from 'idraw';
@@ -46,9 +46,9 @@ const data = {
 idraw.setData(data);
 ```
 
-## 示例
+## Example
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-setData)
+[More Demo](https://idraw.js.org/playground/?demo=api-setData)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=api-setData&header=false&sider=false&default-editor-split=50" 
