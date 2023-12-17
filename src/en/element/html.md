@@ -1,8 +1,8 @@
-# HTML元素
+# HTML
 
 ## HTML
 
-用来渲染`HTML`代码片，具体格式如下所示：
+It is used to render HTML code snippet. The specific type is as follows:
 
 ```ts
 type HTML = {
@@ -18,31 +18,27 @@ type HTML = {
 };
 ```
 
-## HTML.detail 详解
+## HTML.detail
 
-元素的基本属性详情可以看 [元素介绍-数据基本格式](./info.md#数据基本格式) 。
+The basic attribute details of the element can be viewed [Element's Detail #](./info.md#element-s-detail).
 
-### HTML.detail 数据格式
+### HTML.detail Data-Type
 
-HTML 元素的`detail`属性
+The Data-Type of `HTML.detail`
 
 ```ts
-type HTMLDesc = {
+type HTMLDetail = {
   html: string;
 };
 ```
 
-### HTML.detail 数据属性内容
+### HTML.detail Properties
 
-| 属性 | 说明         | 类型     | 默认值 | 是否必填 | 备注 |
-| ---- | ------------ | -------- | ------ | -------- | ---- |
-| html | HTML代码片段 | `string` | -      | `true`   | -    |
+| Property | Description       | Type     | Default | Required | Others |
+| -------- | ----------------- | -------- | ------- | -------- | ------ |
+| html     | HTML code snippet | `string` | -       | `true`   | -      |
 
-::: warning
-注意 `detail.html` 里的 HTML代码片段暂时不支持依赖资源渲染，例如 `<img />` 标签或者 `css`的 `background-image` 属性
-:::
-
-## 完整数据示例
+## Complete Data Example
 
 ```js
 const elementHTML = {
@@ -104,9 +100,9 @@ const elementHTML = {
 };
 ```
 
-## 效果预览
+## Demo Preview
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-html)
+[More Demo >>](https://idraw.js.org/playground/?demo=elem-html)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=elem-html&header=false&sider=false&default-editor-split=50" 

@@ -31,7 +31,7 @@ type Group = {
 Rect 元素的`detail`属性
 
 ```ts
-type GroupDesc = {
+type GroupDetail = {
   children: Array<Element>;
   background?: string;
   background?: string;
@@ -69,7 +69,7 @@ const elementGroup = {
 
 ## 效果预览
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-rect)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-group)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=elem-group&header=false&sider=false&default-editor-split=50" 

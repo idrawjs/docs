@@ -2,7 +2,7 @@
 
 ## Rectangle
 
-用来渲染矩形内容，具体格式如下所示：
+It is used to render rectangle content. The specific type is as follows:
 
 ```ts
 type Rect = {
@@ -21,16 +21,16 @@ type Rect = {
 };
 ```
 
-## Rect.detail 详解
+## Rect.detail
 
-元素的基本属性详情可以看 [元素介绍-数据基本格式](./info.md#数据基本格式) 。
+The basic attribute details of the element can be viewed [Element's Detail #](./info.md#element-s-detail) .
 
-### Rect.detail 数据格式
+### Rect.detail Data-Type
 
-Rect 元素的`detail`属性
+The Data-Type of `Rect.detail`
 
 ```ts
-type RectDesc = {
+type RectDetail = {
   background?: string;
   background?: string;
   borderWidth?: number;
@@ -38,16 +38,17 @@ type RectDesc = {
 };
 ```
 
-### Rect.detail 数据属性内容
+### Rect.detail Properties
 
-| 属性         | 说明           | 类型     | 默认值 | 是否必填 | 备注           |
-| ------------ | -------------- | -------- | ------ | -------- | -------------- |
-| background   | 矩形颜色       | `string` | -      | `true`   | 例如 `#000000` |
-| borderRadius | 边框角圆形半径 | `number` | `0`    | `false`  | -              |
-| borderWidth  | 边框宽度       | `number` | `0`    | `false`  | -              |
-| borderColor  | 边框颜色       | `string` | -      | `false`  | 例如 `#000000` |
+| Property     | Description                       | Type     | Default | Required | Others        |
+| ------------ | --------------------------------- | -------- | ------- | -------- | ------------- |
+| color        | Rectangle color                   | `string` | -       | `true`   | eg. `#000000` |
+| background   | Rectangle background color        | `string` | -       | `true`   | eg. `#000000` |
+| borderRadius | Rectangle radius of border corner | `number` | `0`     | `false`  | -             |
+| borderWidth  | Border width of Rectangle         | `number` | `0`     | `false`  | -             |
+| borderColor  | Border color of Rectangle         | `string` | -       | `false`  | eg. `#000000` |
 
-## 完整数据示例
+## Complete Data Example
 
 ```js
 const elementRect = {
@@ -67,9 +68,9 @@ const elementRect = {
 };
 ```
 
-## 效果预览
+## Demo Preview
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-rect)
+[More Demo >>](https://idraw.js.org/playground/?demo=elem-rect)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50" 

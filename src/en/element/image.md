@@ -1,8 +1,8 @@
-# 图片元素
+# Image
 
 ## Image
 
-用来渲染图片内容，具体格式如下所示：
+It is used to render image content. The specific type is as follows:
 
 ```ts
 type Image = {
@@ -18,27 +18,27 @@ type Image = {
 };
 ```
 
-## Image.detail 详解
+## Image.detail
 
-元素的基本属性详情可以看 [元素介绍-数据基本格式](./info.md#数据基本格式) 。
+The basic attribute details of the element can be viewed [Element's Detail #](./info.md#element-s-detail) .
 
-### Image.detail 数据格式
+### Image.detail Data-Type
 
-Image元素的`detail`属性
+The Data-Type of `Image.detail`
 
 ```ts
-type ImageDesc = {
+type ImageDetail = {
   src: string;
 };
 ```
 
-### Image.detail 数据属性内容
+### Image.detail Properties
 
-| 属性 | 说明       | 类型     | 默认值 | 是否必填 | 备注                       |
-| ---- | ---------- | -------- | ------ | -------- | -------------------------- |
-| src  | 图片数据源 | `string` | -      | `true`   | 可以是图片链接或图片Base64 |
+| Property | Description              | Type     | Default | Required | Others |
+| -------- | ------------------------ | -------- | ------- | -------- | ------ |
+| src      | The image URL or DataURL | `string` | -       | `true`   | -      |
 
-## 完整数据示例
+## Complete Data Example
 
 ```js
 const elementImage = {
@@ -55,9 +55,9 @@ const elementImage = {
 };
 ```
 
-## 效果预览
+## Demo Preview
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-image)
+[More Demo >>](https://idraw.js.org/playground/?demo=elem-image)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=elem-image&header=false&sider=false&default-editor-split=50" 

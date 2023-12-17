@@ -30,7 +30,7 @@ type Rect = {
 Rect 元素的`detail`属性
 
 ```ts
-type RectDesc = {
+type RectDetail = {
   background?: string;
   background?: string;
   borderWidth?: number;

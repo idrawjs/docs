@@ -1,23 +1,23 @@
-# 画图元素介绍
+# Element Information
 
-## 什么是 iDraw.js 画图元素？
+## What is iDraw.js's Element
 
-iDraw.js 画图的内容都是基于“元素”构成的，画图的过程基本是围绕处理元素的位置、样式、内容等属性来实现画图的功能。
+The content of drawing is based on "`Element`" in iDraw.js. Further more, the process of drawing is basically to realize the function of drawing around the layout, style, content and other attributes of controlling elements.
 
-目前支持的有六种元素：
+There eight types of elements are currently supported in iDraw.js :
 
-1. [Text 文本](./text.md)
-2. [Rect 矩形](./rect.md)
-3. [Circle 圆形](./circle.md)
-4. [Image 图片](./image.md)
+1. [Text](./text.md)
+2. [Rect](./rect.md)
+3. [Circle](./circle.md)
+4. [Image](./image.md)
 5. [SVG](./svg.md)
 6. [HTML](./html.md)
-7. [Path 路径](./path.md)
-8. [Group 组合](./group.md)
+7. [Path](./path.md)
+8. [Group](./group.md)
 
-## 画图元素的信息
+## Element's Detail
 
-### 数据基本格式
+### Element Basic Content
 
 ```tsx
 type Element = {
@@ -29,8 +29,7 @@ type Element = {
   w: number;
   h: number;
   angle?: number;
-  detail: any; // 不同元素的描述内容不一样
-  // operations 为元素操控配置
+  detail: any; // Different element has different description
   operations?: {
     lock?: boolean;
     invisible?: boolean;
@@ -40,24 +39,25 @@ type Element = {
 };
 ```
 
-### 元素的基本属性
+### Element Basic Properties
 
-| 属性                  | 说明                 | 类型                                     | 默认值  | 备注                                   |
-| --------------------- | -------------------- | ---------------------------------------- | ------- | -------------------------------------- |
-| type                  | 元素类型             | `text\| rect\|circle\|image\|svg\| html` | -       | -                                      |
-| uuid                  | 唯一 ID              | `string`                                 | -       | iDraw.js 内部会自动添加                |
-| name                  | 名称                 | `string`                                 | -       | -                                      |
-| x                     | X 轴偏移量           | `number`                                 | -       | -                                      |
-| y                     | Y 轴偏移量           | `number`                                 | -       | -                                      |
-| w                     | 元素宽度             | `number`                                 | -       | -                                      |
-| h                     | 元素高度             | `number`                                 | -       | -                                      |
-| angle                 | 元素旋转角度         | `number`                                 | `0`     | `[0, 360]`                             |
-| detail                | 元素描述内容         | `object` (详情请查看各元素描述内容)      | -       | -                                      |
-| operations.lock       | 元素是否锁住         | `boolean`                                | `false` | 元素锁住后就不能进行视图操作           |
-| operations.invisible  | 元素是否不可见       | `boolean`                                | `false` | 元素不可见就不会渲染                   |
-| operations.limitRatio | 元素是否限制宽高比例 | `boolean`                                | -       | 在元素缩放时候，按照其宽高比例进行缩放 |
+| Property             | Description                          | Type                                                                | Default | Required | Others                                                                           |
+| -------------------- | ------------------------------------ | ------------------------------------------------------------------- | ------- | -------- | -------------------------------------------------------------------------------- | --- | ------ | --- | ------ | --- |
+| type                 | Element type                         | ` text                                                              | rect    | circle   | image                                                                            | svg | html ` | -   | `true` | -   |
+| uuid                 | Element unique ID                    | `string`                                                            | -       | `false`  | The UUID is automatically added internally in iDraw.js                           |
+| name                 | Element name                         | `string`                                                            | -       | `false`  | -                                                                                |
+| x                    | X-axis offset                        | `number`                                                            | -       | `true`   | -                                                                                |
+| y                    | Y-axis offset                        | `number`                                                            | -       | `true`   | -                                                                                |
+| w                    | Element width                        | `number`                                                            | -       | `true`   | -                                                                                |
+| h                    | Element height                       | `number`                                                            | -       | `true`   | -                                                                                |
+| angle                | Element rotation angle               | `number`                                                            | `0`     | `false`  | `[0, 360]`                                                                       |
+| lock                 | Set the lock-staus of element        | `boolean`                                                           | `false` | `false`  | The view operation cannot be controlled after the element is locked              |
+| detail               | Detail of different elements         | `object` (Please check the description of each element for details) | -       | `true`   | -                                                                                |
+| operation.lock       | Set the lock-staus of element        | `boolean`                                                           | `false` | `false`  | The view operation cannot be controlled after the element is locked              |
+| operation.invisible  | -                                    | `boolean`                                                           | `false` | `false`  | -                                                                                |
+| operation.limitRatio | Limit element width and height ratio | `boolean`                                                           | -       | `false`  | When the element is scaled, it is scaled according to its width and height ratio |
 
-## 画图元素的使用
+## Usage of Elements
 
 ```js
 import { iDraw } from 'idraw';
@@ -93,13 +93,13 @@ const idraw = new iDraw(app, {
   devicePixelRatio: 2
 });
 
-// 设置元素数据，渲染画图内容
+// Set drawing-data for rendering view
 idraw.setData(data);
 ```
 
-## 示例预览
+## Demo Preview
 
-[Demo 完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-rect)
+[More Demo >>](https://idraw.js.org/playground/?demo=elem-rect)
 
 <iframe class="idraw-playground-preview" src="https://idraw.js.org/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50"
       frameborder="no" border="0" 

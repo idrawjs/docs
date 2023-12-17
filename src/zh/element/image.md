@@ -27,7 +27,7 @@ type Image = {
 Image元素的`detail`属性
 
 ```ts
-type ImageDesc = {
+type ImageDetail = {
   src: string;
 };
 ```

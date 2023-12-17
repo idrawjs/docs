@@ -1,8 +1,8 @@
-# 路径元素
+# Path
 
 ## Path
 
-用来渲染路径内容，具体格式如下所示：
+It is used to render image content. The specific type is as follows:
 
 ```ts
 type Path = {
@@ -29,16 +29,14 @@ type Path = {
 };
 ```
 
-## Path.detail 详解
+## Path.detail Properties
 
-元素的基本属性详情可以看 [元素介绍-数据基本格式](./info.md#数据基本格式) 。
+The basic attribute details of the element can be viewed [Element's Detail #](./info.md#element-s-detail) .
 
-### Path.detail 数据格式
-
-Rect 元素的`detail`属性
+### Path.detail Data-Type
 
 ```ts
-type PathDesc = {
+type PathDetail = {
   commands: Array<{
     type: 'M' | 'm' | 'L' | 'l' | 'H' | 'h' | 'V' | 'v' | 'C' | 'c' | 'S' | 's' | 'Q' | 'q' | 'T' | 't' | 'A' | 'a' | 'Z' | 'z';
     params: number[];
@@ -54,20 +52,20 @@ type PathDesc = {
 };
 ```
 
-### Path.detail 数据属性内容
+### Path.detail Properties
 
-| 属性          | 说明          | 类型                            | 默认值 | 是否必填 | 备注           |
-| ------------- | ------------- | ------------------------------- | ------ | -------- | -------------- |
-| fill          | 填充颜色      | `string`                        | -      | `true`   | 例如 `#000000` |
-| stroke        | 路径颜色      | `string`                        | -      | `true`   | 例如 `#000000` |
-| strokeWidth   | 路径宽度      | `number`                        | `0`    | `false`  | -              |
-| strokeLineCap | 路径转折类型  | `'butt' \| 'round' \| 'square'` | -      | `true`   | -              |
-| originX       | 路径原始X位置 | `number`                        | `0`    | `false`  | -              |
-| originY       | 路径原始Y位置 | `number`                        | `0`    | `false`  | -              |
-| originW       | 路径原始宽度  | `number`                        | `0`    | `false`  | -              |
-| originH       | 路径原始高度  | `number`                        | `0`    | `false`  | -              |
+| Property      | Description              | Type                            | Default | Required | Others        |
+| ------------- | ------------------------ | ------------------------------- | ------- | -------- | ------------- |
+| fill          | fill color               | `string`                        | -       | `true`   | eg. `#000000` |
+| stroke        | path color               | `string`                        | -       | `true`   | eg. `#000000` |
+| strokeWidth   | path width               | `number`                        | `0`     | `false`  | -             |
+| strokeLineCap | Path turning type        | `'butt' \| 'round' \| 'square'` | -       | `true`   | -             |
+| originX       | Path original X position | `number`                        | `0`     | `false`  | -             |
+| originY       | Path original Y position | `number`                        | `0`     | `false`  | -             |
+| originW       | Path original width      | `number`                        | `0`     | `false`  | -             |
+| originH       | Path original height     | `number`                        | `0`     | `false`  | -             |
 
-## 完整数据示例
+## Complete Data Example
 
 ```js
 const elementPath = {
@@ -98,12 +96,12 @@ const elementPath = {
 };
 ```
 
-## 效果预览
+## Demo Preview
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-rect)
+[More Demo >>](https://idraw.js.org/playground/?demo=elem-path)
 
 <iframe class="idraw-playground-preview" 
-    src="https://idraw.js.org/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50" 
+    src="https://idraw.js.org/playground/?demo=elem-path&header=false&sider=false&default-editor-split=50" 
     width="1000" height="540" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>

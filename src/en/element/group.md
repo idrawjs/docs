@@ -1,8 +1,8 @@
-# 组合元素
+# Group
 
 ## Group
 
-用来渲染组合内容，具体格式如下所示：
+It is used to render group or oval content. The specific type is as follows:
 
 ```ts
 type Group = {
@@ -22,16 +22,16 @@ type Group = {
 };
 ```
 
-## Group.detail 详解
+## Group.detail
 
-元素的基本属性详情可以看 [元素介绍-数据基本格式](./info.md#数据基本格式) 。
+The basic attribute details of the element can be viewed [Element's Detail #](./info.md#element-s-detail) .
 
-### Group.detail 数据格式
+### Group.detail Data-Type
 
-Rect 元素的`detail`属性
+The Data-Type of `Group.detail`
 
 ```ts
-type GroupDesc = {
+type GroupDetail = {
   children: Array<Element>;
   background?: string;
   background?: string;
@@ -40,17 +40,17 @@ type GroupDesc = {
 };
 ```
 
-### Group.detail 数据属性内容
+### Group.detail Properties
 
-| 属性         | 说明               | 类型             | 默认值 | 是否必填 | 备注           |
-| ------------ | ------------------ | ---------------- | ------ | -------- | -------------- |
-| children     | 组合子元素         | `Array<Element>` | -      | `true`   | 例如 `#000000` |
-| background   | 组合矩形颜色       | `string`         | -      | `false`  | 例如 `#000000` |
-| borderRadius | 组合边框角圆形半径 | `number`         | `0`    | `false`  | -              |
-| borderWidth  | 组合边框宽度       | `number`         | `0`    | `false`  | -              |
-| borderColor  | 组合边框颜色       | `string`         | -      | `false`  | 例如 `#000000` |
+| Property     | Description                   | Type             | Default | Required | Others        |
+| ------------ | ----------------------------- | ---------------- | ------- | -------- | ------------- |
+| children     | Children element list         | `Array<Element>` | -       | `true`   | eg. `#000000` |
+| background   | Group background color        | `string`         | -       | `false`  | eg. `#000000` |
+| borderRadius | Group radius of border corner | `number`         | `0`     | `false`  | -             |
+| borderWidth  | Border width of Group         | `number`         | `0`     | `false`  | -             |
+| borderColor  | Border color of Group         | `number`         | `0`     | `false`  | eg. `#000000` |
 
-## 完整数据示例
+## Complete Data Example
 
 ```js
 const elementGroup = {
@@ -67,9 +67,9 @@ const elementGroup = {
 };
 ```
 
-## 效果预览
+## Demo Preview
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-rect)
+[More Demo >>](https://idraw.js.org/playground/?demo=elem-group)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=elem-group&header=false&sider=false&default-editor-split=50" 

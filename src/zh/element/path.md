@@ -38,7 +38,7 @@ type Path = {
 Rect 元素的`detail`属性
 
 ```ts
-type PathDesc = {
+type PathDetail = {
   commands: Array<{
     type: 'M' | 'm' | 'L' | 'l' | 'H' | 'h' | 'V' | 'v' | 'C' | 'c' | 'S' | 's' | 'Q' | 'q' | 'T' | 't' | 'A' | 'a' | 'Z' | 'z';
     params: number[];
@@ -100,10 +100,10 @@ const elementPath = {
 
 ## 效果预览
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-rect)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-path)
 
 <iframe class="idraw-playground-preview" 
-    src="https://idraw.js.org/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50" 
+    src="https://idraw.js.org/playground/?demo=elem-path&header=false&sider=false&default-editor-split=50" 
     width="1000" height="540" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>

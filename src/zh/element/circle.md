@@ -30,7 +30,7 @@ type Circle = {
 Circle 元素的`detail`属性
 
 ```ts
-type CircleDesc = {
+type CircleDetail = {
   background?: string;
   background?: string;
   borderWidth?: number;

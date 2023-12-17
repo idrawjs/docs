@@ -27,7 +27,7 @@ type SVG = {
 SVG 元素的`detail`属性
 
 ```ts
-type SVGDesc = {
+type SVGDetail = {
   svg: string;
 };
 ```

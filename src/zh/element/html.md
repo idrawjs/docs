@@ -27,7 +27,7 @@ type HTML = {
 HTML 元素的`detail`属性
 
 ```ts
-type HTMLDesc = {
+type HTMLDetail = {
   html: string;
 };
 ```

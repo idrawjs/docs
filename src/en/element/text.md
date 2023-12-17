@@ -1,8 +1,8 @@
-# 文本元素
+# Text
 
 ## Text
 
-用来渲染文字内容，具体格式如下所示：
+It is used to render text content. The specific type is as follows:
 
 ```ts
 type Text = {
@@ -18,10 +18,6 @@ type Text = {
     fontSize?: string;
     fontFamily?: string;
     textAlign?: 'left' | 'center' | 'right';
-    borderRadius?: string;
-    borderWidth?: number;
-    borderColor?: number;
-  };
 };
 ```
 
@@ -34,34 +30,32 @@ type Text = {
 Text元素的`detail`属性
 
 ```ts
-type TextDesc = {
+type TextDetail = {
   text: string;
   color?: string;
-  fontSize?: string;
+  fontSize?: number;
+  lineHeight?: number;
+  fontWeight?: 'bold' | string | number;
   fontFamily?: string;
-  textAlign?: 'left' | 'center' | 'right';
-  background?: string;
-  borderRadius?: string;
-  borderWidth?: number;
-  borderColor?: string;
+  textAlign?: 'center' | 'left' | 'right';
+  verticalAlign?: 'middle' | 'top' | 'bottom';
 };
 ```
 
-### Text.detail 数据属性内容
+### Text.detail Properties
 
-| 属性         | 说明           | 类型     | 默认值 | 是否必填 | 备注           |
-| ------------ | -------------- | -------- | ------ | -------- | -------------- | ------- | --- |
-| text         | 文本内容       | `string` | -      | `true`   | -              |
-| color        | 字体颜色       | `string` | -      | `true`   | 例如 `#000000` |
-| fontSize     | 字体尺寸       | `number` | `12`   | `false`  | -              |
-| fontFamily   | 字体类型       | `string` | -      | `false`  | -              |
-| textAlign    | 文本对齐       | `left    | center | right`   | `center`       | `false` | -   |
-| background   | 背景颜色       | `number` | `0`    | `false`  | 例如 `#ffffff` |
-| borderRadius | 边框角圆形半径 | `number` | `0`    | `false`  | -              |
-| borderWidth  | 边框宽度       | `number` | `0`    | `false`  | -              |
-| borderColor  | 边框颜色       | `string` | -      | `false`  | 例如 `#000000` |
+| Property      | Description         | Type                            | Default  | Required | Others        |
+| ------------- | ------------------- | ------------------------------- | -------- | -------- | ------------- |
+| text          | Text Content        | `string`                        | -        | `true`   | -             |
+| color         | Font color of Text  | `string`                        | -        | `true`   | eg. `#000000` |
+| fontSize      | Font size of Text   | `number`                        | `12`     | `false`  | -             |
+| lineHeight    | Line height of Text | `number`                        | -        | `false`  | -             |
+| fontWeight    | Font bold           | `number`                        | -        | `false`  | -             |
+| fontFamily    | Font family of Text | `string`                        | -        | `false`  | -             |
+| textAlign     | Text align          | `'left' \| 'center' \| 'right'` | `'left'` | `false`  | -             |
+| verticalAlign | Vertical Align      | `'top' \| 'middle' \| 'bottom'` | `'top'`  | `false`  | -             |
 
-## 完整数据示例
+## Complete Data Example
 
 ```js
 const elementText = {
@@ -85,9 +79,9 @@ const elementText = {
 };
 ```
 
-## 效果预览
+## Demo Preview
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-text)
+[More Demo](https://idraw.js.org/playground/?demo=elem-text)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=elem-text&header=false&sider=false&default-editor-split=50" 
