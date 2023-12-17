@@ -21,37 +21,37 @@ export default defineConfig({
       {
         text: 'Guides',
         items: [
-          { text: 'introdcution', link: '/en/guide/introduction' },
-          { text: 'Qick Started', link: '/en/guide/quickstart' },
-          { text: 'Installation', link: '/en/guide/installation' },
-          { text: 'Class iDraw', link: '/en/guide/class-idraw' }
+          { text: 'introdcution', link: '/en-US/guide/introduction' },
+          { text: 'Qick Started', link: '/en-US/guide/quickstart' },
+          { text: 'Installation', link: '/en-US/guide/installation' },
+          { text: 'Class iDraw', link: '/en-US/guide/class-idraw' }
         ]
       },
       {
         text: 'Element',
         items: [
-          { text: 'Basic', link: '/en/element/info' },
-          { text: 'Text', link: '/en/element/text' },
-          { text: 'Rect', link: '/en/element/rect' },
-          { text: 'Circle', link: '/en/element/circle' },
-          { text: 'Image', link: '/en/element/image' },
-          { text: 'SVG', link: '/en/element/svg' },
-          { text: 'HTML', link: '/en/element/html' },
-          { text: 'Path', link: '/en/element/path' },
-          { text: 'Group', link: '/en/element/group' }
+          { text: 'Basic', link: '/en-US/element/info' },
+          { text: 'Text', link: '/en-US/element/text' },
+          { text: 'Rect', link: '/en-US/element/rect' },
+          { text: 'Circle', link: '/en-US/element/circle' },
+          { text: 'Image', link: '/en-US/element/image' },
+          { text: 'SVG', link: '/en-US/element/svg' },
+          { text: 'HTML', link: '/en-US/element/html' },
+          { text: 'Path', link: '/en-US/element/path' },
+          { text: 'Group', link: '/en-US/element/group' }
         ]
       },
       {
         text: 'API',
         items: [
-          { text: 'setData', link: '/en/api/set-data' },
-          { text: 'getData', link: '/en/api/get-data' },
-          { text: 'selectElement', link: '/en/api/select-element' },
-          { text: 'addElement', link: '/en/api/add-element' },
-          { text: 'updateElement', link: '/en/api/update-element' },
-          { text: 'deleteElement', link: '/en/api/delete-element' },
-          { text: 'moveElement', link: '/en/api/move-element' },
-          { text: 'resize', link: '/en/api/resize' }
+          { text: 'setData', link: '/en-US/api/set-data' },
+          { text: 'getData', link: '/en-US/api/get-data' },
+          { text: 'selectElement', link: '/en-US/api/select-element' },
+          { text: 'addElement', link: '/en-US/api/add-element' },
+          { text: 'updateElement', link: '/en-US/api/update-element' },
+          { text: 'deleteElement', link: '/en-US/api/delete-element' },
+          { text: 'moveElement', link: '/en-US/api/move-element' },
+          { text: 'resize', link: '/en-US/api/resize' }
         ]
       }
     ],
@@ -60,20 +60,19 @@ export default defineConfig({
   locales: {
     root: {
       label: 'English',
-      lang: 'en',
-      link: '/en/'
+      lang: 'en-US',
+      link: '/en-US/'
     },
-    zh: {
+    'zh-CN': {
       label: '中文',
-      lang: 'zh',
-      link: '/zh/',
+      lang: 'zh-CN',
+      link: '/zh-CN',
       themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
         logo: {
           src: './assets/idraw.png'
         },
         nav: [
-          { text: '主页', link: '/zh/' },
+          { text: '主页', link: '/zh-CN/' },
           { text: '演示', link: 'https://idraw.js.org/playground/' }
         ],
 
@@ -81,37 +80,37 @@ export default defineConfig({
           {
             text: '基础',
             items: [
-              { text: '介绍', link: '/zh/guide/introduction' },
-              { text: '快速开始', link: '/zh/guide/quickstart' },
-              { text: '安装', link: '/zh/guide/installation' },
-              { text: 'iDraw', link: '/zh/guide/class-idraw' }
+              { text: '介绍', link: '/zh-CN/guide/introduction' },
+              { text: '快速开始', link: '/zh-CN/guide/quickstart' },
+              { text: '安装', link: '/zh-CN/guide/installation' },
+              { text: 'iDraw', link: '/zh-CN/guide/class-idraw' }
             ]
           },
           {
             text: '元素',
             items: [
-              { text: 'Basic', link: '/zh/element/info' },
-              { text: 'Text', link: '/zh/element/text' },
-              { text: 'Rect', link: '/zh/element/rect' },
-              { text: 'Circle', link: '/zh/element/circle' },
-              { text: 'Image', link: '/zh/element/image' },
-              { text: 'SVG', link: '/zh/element/svg' },
-              { text: 'HTML', link: '/zh/element/html' },
-              { text: 'Path', link: '/zh/element/path' },
-              { text: 'Group', link: '/zh/element/group' }
+              { text: 'Basic', link: '/zh-CN/element/info' },
+              { text: 'Text', link: '/zh-CN/element/text' },
+              { text: 'Rect', link: '/zh-CN/element/rect' },
+              { text: 'Circle', link: '/zh-CN/element/circle' },
+              { text: 'Image', link: '/zh-CN/element/image' },
+              { text: 'SVG', link: '/zh-CN/element/svg' },
+              { text: 'HTML', link: '/zh-CN/element/html' },
+              { text: 'Path', link: '/zh-CN/element/path' },
+              { text: 'Group', link: '/zh-CN/element/group' }
             ]
           },
           {
             text: 'API',
             items: [
-              { text: 'setData', link: '/zh/api/set-data' },
-              { text: 'getData', link: '/zh/api/get-data' },
-              { text: 'selectElement', link: '/zh/api/select-element' },
-              { text: 'addElement', link: '/zh/api/add-element' },
-              { text: 'updateElement', link: '/zh/api/update-element' },
-              { text: 'deleteElement', link: '/zh/api/delete-element' },
-              { text: 'moveElement', link: '/zh/api/move-element' },
-              { text: 'resize', link: '/zh/api/resize' }
+              { text: 'setData', link: '/zh-CN/api/set-data' },
+              { text: 'getData', link: '/zh-CN/api/get-data' },
+              { text: 'selectElement', link: '/zh-CN/api/select-element' },
+              { text: 'addElement', link: '/zh-CN/api/add-element' },
+              { text: 'updateElement', link: '/zh-CN/api/update-element' },
+              { text: 'deleteElement', link: '/zh-CN/api/delete-element' },
+              { text: 'moveElement', link: '/zh-CN/api/move-element' },
+              { text: 'resize', link: '/zh-CN/api/resize' }
             ]
           }
         ],

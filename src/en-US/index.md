@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Quick Started
-      link: /en/guide/quickstart
+      link: /en-US/guide/quickstart
     - theme: alt
       text: Playground
       link: https://idraw.js.org/playground/

@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "iDraw.js"
-  text: "Drawing easier on the web."
+  name: 'iDraw.js'
+  text: 'Drawing easier on the web.'
   tagline: A simple JavaScript framework for Drawing on the web.
   actions:
     - theme: brand
       text: Quick Started
-      link: /en/guide/quickstart
+      link: /en-US/guide/quickstart
     - theme: alt
       text: Playground
       link: https://idraw.js.org/playground/
@@ -17,7 +17,6 @@ hero:
       text: iDraw Studio
       link: https://idraw.js.org/studio/
   image: /assets/idraw.png
-
 
 features:
   - title: High web compatibility
@@ -27,4 +26,3 @@ features:
   - title: Data-Driven drawing
     details: Rely on data to control drawing operations
 ---
-
