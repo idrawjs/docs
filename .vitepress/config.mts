@@ -18,7 +18,7 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: 'Essentials',
+        text: 'Guides',
         items: [
           { text: 'introdcution', link: '/en/guide/introduction' },
           { text: 'Qick Started', link: '/en/guide/quickstart' },

@@ -1,28 +1,26 @@
 # scale
 
-## Introduction
+## 说明
 
-`scale` Scale Drawing context
+`scale` 对画布进行缩放
 
-## Arguments
+## 参数
 
-- `{number}` `scale`
+- `{number}` `scale` 画布缩放比例
 
-## Returns
+## 返回值
 
-// TODO
-
-- `{object}` `screenInfo`
-  - `{object}` `screenInfo.size`
-    - `{number}` `screenInfo.size.x`
-    - `{number}` `screenInfo.size.y`
-    - `{number}` `screenInfo.size.w`
-    - `{number}` `screenInfo.size.h`
-  - `{object}` `screenInfo.position`
-    - `{number}` `screenInfo.position.top`
-    - `{number}` `screenInfo.position.bottom`
-    - `{number}` `screenInfo.position.left`
-    - `{number}` `screenInfo.position.right`
+- `{object}` `screenInfo` 画板视图信息
+  - `{object}` `screenInfo.size` 画布尺寸信息
+    - `{number}` `screenInfo.size.x` 画布起始点在画板X轴位置
+    - `{number}` `screenInfo.size.y` 画布起始点在画板Y轴位置
+    - `{number}` `screenInfo.size.w` 画布缩放后的宽度
+    - `{number}` `screenInfo.size.h` 画布缩放后的高度
+  - `{object}` `screenInfo.position` 画布在画板中位置信息
+    - `{number}` `screenInfo.position.top` 画布在距离画板顶部位置距离
+    - `{number}` `screenInfo.position.bottom` 画布在距离画板滴部位置距离
+    - `{number}` `screenInfo.position.left` 画布在距离画板左边位置距离
+    - `{number}` `screenInfo.position.right` 画布在距离画板右边位置距离
 
 ```ts
 {
@@ -41,7 +39,7 @@
 }
 ```
 
-## Usage
+## 用法
 
 ```js
 import iDraw from 'idraw';
@@ -65,9 +63,9 @@ idraw.setData({
 idraw.scale(2);
 ```
 
-## Example
+## 示例
 
-[More Demo >>](https://idraw.js.org/playground/?demo=api-scale)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-scale)
 
 <iframe class="idraw-playground-preview" 
   src="https://idraw.js.org/playground/?demo=api-scale&header=false&sider=false&default-editor-split=50" 

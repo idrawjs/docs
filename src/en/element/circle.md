@@ -1,8 +1,8 @@
-# Circle
+# 圆形元素
 
 ## Circle
 
-It is used to render circular or oval content. The specific type is as follows:
+用来渲染圆形或椭圆形内容，具体格式如下所示：
 
 ```ts
 type Circle = {
@@ -21,33 +21,33 @@ type Circle = {
 };
 ```
 
-## Circle.detail
+## Circle.detail 详解
 
-The basic attribute details of the element can be viewed [Element's Detail #](./info.md#element-s-detail) .
+元素的基本属性详情可以看 [元素介绍-数据基本格式](./info.md#数据基本格式) 。
 
-### Circle.detail Data-Type
+### Circle.detail 数据格式
 
-The Data-Type of `Circle.detail`
+Circle 元素的`detail`属性
 
 ```ts
 type CircleDesc = {
-  color?: string;
+  background?: string;
   background?: string;
   borderWidth?: number;
   borderColor?: string;
 };
 ```
 
-### Circle.detail Properties
+### Circle.detail 数据属性内容
 
-| Property     | Description                    | Type     | Default | Required | Others        |
-| ------------ | ------------------------------ | -------- | ------- | -------- | ------------- |
-| color        | Circle Color                   | `string` | -       | `true`   | eg. `#000000` |
-| borderRadius | Circle radius of border corner | `number` | `0`     | `false`  | -             |
-| borderWidth  | Border width of Circle         | `number` | `0`     | `false`  | -             |
-| borderColor  | Border color of Circle         | `number` | `0`     | `false`  | eg. `#000000` |
+| 属性         | 说明           | 类型     | 默认值 | 是否必填 | 备注           |
+| ------------ | -------------- | -------- | ------ | -------- | -------------- |
+| background   | 圆形颜色       | `string` | -      | `true`   | 例如 `#000000` |
+| borderRadius | 边框角圆形半径 | `number` | `0`    | `false`  | -              |
+| borderWidth  | 边框宽度       | `number` | `0`    | `false`  | -              |
+| borderColor  | 边框颜色       | `string` | -      | `false`  | 例如 `#000000` |
 
-## Complete Data Example
+## 完整数据示例
 
 ```js
 const elementCircle = {
@@ -67,9 +67,9 @@ const elementCircle = {
 };
 ```
 
-## Demo Preview
+## 效果预览
 
-[More Demo >>](https://idraw.js.org/playground/?demo=elem-circle)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-circle)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=elem-circle&header=false&sider=false&default-editor-split=50" 

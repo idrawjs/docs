@@ -1,24 +1,18 @@
 # setData
 
-## Introduction
+## 说明
 
-`setData` The function receives a Drawing-Data to set drawing content. After that, it will re-render image base on Drawing-Data.
+`setData` 用于设置画图内容的数据，设置后会根据设置数据触发图画的重绘。
 
-## Arguments
+## 参数
 
-- `{object}` `data` Drawing-Data
-- `{object}` `options`
-  - `{boolean}` `options.triggerChangeEvent` Trigger internal event named `changeData`.
+- `{object}` `data` 画图数据对象
 
-:::tip
-If it sets `options.triggerChangeEvent = true`, `idraw.on('changeData', (e) => { })` will listen `"changeData"` event and return the lastest Changed-Drawing-Data in callback function.
-:::
+## 返回值
 
-## Returns
+> 无返回值
 
-> None
-
-## Usage
+## 用法
 
 ```js
 import iDraw from 'idraw';
@@ -27,9 +21,7 @@ const app = document.querySelector('#app');
 const options = {
   width: 600,
   height: 400,
-  contextWidth: 600,
-  contextHeight: 400,
-  devicePixelRatio: 4
+  devicePixelRatio: 2
 };
 const idraw = new iDraw(app, options);
 const data = {
@@ -54,9 +46,9 @@ const data = {
 idraw.setData(data);
 ```
 
-## Example
+## 示例
 
-[More Demo](https://idraw.js.org/playground/?demo=api-setData)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-setData)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=api-setData&header=false&sider=false&default-editor-split=50" 

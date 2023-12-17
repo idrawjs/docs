@@ -7,7 +7,7 @@ It is a simple example of `iDraw.js` that drawing a rotating rectangle.
 <div>
   <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50" 
-    width="1000" height="520" frameborder="no" border="0"
+    width="800" height="520" frameborder="no" border="0"
     style="border: 1px solid #cecece"
   ></iframe>
 </div>
@@ -52,16 +52,11 @@ const app = document.querySelector('#app');
 const idraw = new iDraw(app, {
   width: 600,
   height: 400,
-  contextWidth: 600,
-  contextHeight: 400,
-  devicePixelRatio: 4
+  devicePixelRatio: 2
 });
 
 // Setting data
 idraw.setData(data);
-
-// Select first element by default
-idraw.selectElementByIndex(0);
 ```
 
 Now, we can start the tutorials for using `iDraw.js`. O(∩_∩)O~

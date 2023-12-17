@@ -1,18 +1,18 @@
 # getData
 
-## Introduction
+## 说明
 
-`getData` The function can be used to get lastest Drawing-Data of Image;
+`getData` 用于获取当前画图内容的数据。
 
-## Arguments
+## 参数
 
-> None
+> 无参数
 
-## Returns
+## 返回值
 
-- `{object}` `data` Drawing-Data
+- `{object}` `data` 图画的`JSON`对象数据
 
-## Usage
+## 用法
 
 ```js
 import iDraw from 'idraw';
@@ -41,9 +41,7 @@ const app = document.querySelector('#app');
 const options = {
   width: 600,
   height: 400,
-  contextWidth: 600,
-  contextHeight: 400,
-  devicePixelRatio: 4
+  devicePixelRatio: 2
 };
 const idraw = new iDraw(app, options);
 idraw.setData(data);
@@ -52,9 +50,9 @@ const resultData = idraw.getData();
 console.log(resultData);
 ```
 
-## Example
+## 示例
 
-[More Demo](https://idraw.js.org/playground/?demo=api-getData)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-getData)
 
 <iframe class="idraw-playground-preview" 
   src="https://idraw.js.org/playground/?demo=api-getData&header=false&sider=false&default-editor-split=50" 

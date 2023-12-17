@@ -19,7 +19,7 @@ const config = {
 const idraw = new iDraw(dom, options, config);
 ```
 
-在使用 `new iDraw(dom, options, config)` 类时，会接收三个参数。参数信息有下：
+在使用 `new iDraw(dom, options)` 类时，会接收三个参数。参数信息有下：
 
 | 参数    | 说明         | 类型                    | 默认值 | 是否必填 | 备注 |
 | ------- | ------------ | ----------------------- | ------ | -------- | ---- |

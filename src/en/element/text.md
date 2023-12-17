@@ -1,8 +1,8 @@
-# Text
+# 文本元素
 
 ## Text
 
-It is used to render text content. The specific type is as follows:
+用来渲染文字内容，具体格式如下所示：
 
 ```ts
 type Text = {
@@ -25,13 +25,13 @@ type Text = {
 };
 ```
 
-## Text.detail
+## Text.detail 详解
 
-The basic attribute details of the element can be viewed [Element's Detail #](./info.md#element-s-detail).
+元素的基本属性详情可以看 [元素介绍-数据基本格式](./info.md#数据基本格式) 。
 
-### Text.detail Data-Type
+### Text.detail 数据格式
 
-The Data-Type of `Text.detail`
+Text元素的`detail`属性
 
 ```ts
 type TextDesc = {
@@ -47,21 +47,21 @@ type TextDesc = {
 };
 ```
 
-### Text.detail Properties
+### Text.detail 数据属性内容
 
-| Property     | Description                       | Type     | Default | Required | Others        |
-| ------------ | --------------------------------- | -------- | ------- | -------- | ------------- | ------- | --- |
-| text         | Text Content                      | `string` | -       | `true`   | -             |
-| color        | Font color of Text                | `string` | -       | `true`   | eg. `#000000` |
-| fontSize     | Font size of Text                 | `number` | `12`    | `false`  | -             |
-| fontFamily   | Font family of Text               | `string` | -       | `false`  | -             |
-| textAlign    | Text align                        | `left    | center  | right`   | `center`      | `false` | -   |
-| background   | Background Color                  | `number` | `0`     | `false`  | eg. `#ffffff` |
-| borderRadius | Rectangle radius of border corner | `number` | `0`     | `false`  | -             |
-| borderWidth  | Border width of Rectangle         | `number` | `0`     | `false`  | -             |
-| borderColor  | Border color of Rectangle         | `string` | -       | `false`  | eg. `#000000` |
+| 属性         | 说明           | 类型     | 默认值 | 是否必填 | 备注           |
+| ------------ | -------------- | -------- | ------ | -------- | -------------- | ------- | --- |
+| text         | 文本内容       | `string` | -      | `true`   | -              |
+| color        | 字体颜色       | `string` | -      | `true`   | 例如 `#000000` |
+| fontSize     | 字体尺寸       | `number` | `12`   | `false`  | -              |
+| fontFamily   | 字体类型       | `string` | -      | `false`  | -              |
+| textAlign    | 文本对齐       | `left    | center | right`   | `center`       | `false` | -   |
+| background   | 背景颜色       | `number` | `0`    | `false`  | 例如 `#ffffff` |
+| borderRadius | 边框角圆形半径 | `number` | `0`    | `false`  | -              |
+| borderWidth  | 边框宽度       | `number` | `0`    | `false`  | -              |
+| borderColor  | 边框颜色       | `string` | -      | `false`  | 例如 `#000000` |
 
-## Complete Data Example
+## 完整数据示例
 
 ```js
 const elementText = {
@@ -85,9 +85,9 @@ const elementText = {
 };
 ```
 
-## Demo Preview
+## 效果预览
 
-[More Demo](https://idraw.js.org/playground/?demo=elem-text)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-text)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=elem-text&header=false&sider=false&default-editor-split=50" 

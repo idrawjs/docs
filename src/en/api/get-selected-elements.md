@@ -1,18 +1,18 @@
 # getSelectedElements
 
-## Introduction
+## 说明
 
-// TODO
+`getSelectedElements` 读取被选中的元素数组
 
-## Arguments
+## 参数
 
-> None
+无
 
-## Returns
+## 返回值
 
-- `{TypeElement}[]`
+- `{TypeElement}[]` 选中元素的数组
 
-## Usage
+## 用法
 
 ```js
 import iDraw from 'idraw';
@@ -38,9 +38,9 @@ idraw.selectElement(resultData.elements[0].uuid);
 const elems = idraw.getSelectedElements();
 ```
 
-## Example
+## 示例
 
-[More Demo >>](https://idraw.js.org/playground/?demo=api-getSelectedElements)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-getSelectedElements)
 
 <iframe class="idraw-playground-preview" 
   src="https://idraw.js.org/playground/?demo=api-getSelectedElements&header=false&sider=false&default-editor-split=50" 

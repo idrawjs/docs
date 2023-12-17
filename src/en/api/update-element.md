@@ -1,18 +1,18 @@
 # updateElement
 
-## Introduction
+## 说明
 
-// TODO
+`updateElement` 更新图画中的元素，并且触发重新渲染。
 
-## Arguments
+## 参数
 
-- `{object}` `element` [More Element Infomation>>](./../element/info.md) .
+- `{object}` `element` 元素内容，具体元素数据格式可查询 [画图元素](./../element/info.md) 。
 
-## Returns
+## 返回值
 
-> None
+> 无返回值
 
-## Usage
+## 用法
 
 ```js
 import iDraw from 'idraw';
@@ -26,22 +26,22 @@ const app = document.querySelector('#app');
 const options = {
   width: 600,
   height: 400,
-  contextWidth: 600,
-  contextHeight: 400,
-  devicePixelRatio: 4
+  devicePixelRatio: 2
 };
 const idraw = new iDraw(app, options);
 idraw.setData(data);
 const resultData = idraw.getData();
 
-resultData.elements[0].detail.color = '#f0f0f0';
+const elem = resultData.elements[0];
 
-idraw.updateData(resultData.elements[0]);
+elem.detail.color = '#f0f0f0';
+
+idraw.updateData(elem);
 ```
 
-## Example
+## 示例
 
-[More Demo >>](https://idraw.js.org/playground/?demo=api-updateElement)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-updateElement)
 
 <iframe class="idraw-playground-preview" 
   src="https://idraw.js.org/playground/?demo=api-updateElement&header=false&sider=false&default-editor-split=50" 

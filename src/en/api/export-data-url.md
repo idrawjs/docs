@@ -1,20 +1,20 @@
 # exportDataURL
 
-## Introduction
+## 说明
 
-`exportDataURL` is used to export base64 dataURL of drawing canvas
+`exportDataURL` 用于导出当前画布的图片的`base64`字符串
 
-## Arguments
+## 参数
 
-- `{string}` `type` Image type, `'image/png'` | `'image/jpeg'`
-- `{number}` `quality` Image quality, rang between 0-1
+- `{string}` `type` 输出图片类型 `'image/png'` | `'image/jpeg'` 两个选择。
+- `{number}` `quality` 图片质量，范围为 0~1。
 
 
-## Returns
+## 返回值
 
-- `{string}` `dataURL`  base64 dataURL of drawing canvas
+- `{string}` `dataURL` 图画的`base64`图片数据
 
-## Usage
+## 用法
 
 ```js
 import iDraw from 'idraw';

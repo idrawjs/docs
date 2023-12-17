@@ -1,38 +1,38 @@
 # on/off
 
-## Introduction
+## 说明
 
-// TODO
+`on`和`off`为画板的事件的订阅和取消操作
 
-## Arguments
+## 参数
 
-### on
+### on 注册事件监听 参数
 
-- `{string}`
-- `{Function}`
+- `{string}` 事件名称
+- `{Function}` 事件回调函数
 
-### off
+### off 取消事件监听 参数
 
-- `{string}`
-- `{Function}`
+- `{string}` 事件名称
+- `{Function}` 事件回调函数
 
-### Event Description
+### 具体事件详解
 
-| Event Name               | Introduction | Callback Arguments | Others |
-| ------------------------ | ------------ | ------------------ | ------ |
-| `error`                  | -            | `{Error}` -        | -      |
-| `screenSelectElement`    | -            | `{object}`         | -      |
-| `screenMoveElementStart` | -            | `{object}`         | -      |
-| `screenMoveElementEnd`   | -            | `{object}`         | -      |
-| `screenChangeElement`    | -            | `{object}`         | -      |
-| `changeData`             | -            | `{object}`         | -      |
-| `changeScreen`           | -            | `{object}`         | -      |
+| 事件名称                 | 说明                 | 回调数据                                                                                 | 其他 |
+| ------------------------ | -------------------- | ---------------------------------------------------------------------------------------- | ---- |
+| `error`                  | 异常事件             | `{Error}` 异常数据                                                                       | -    |
+| `screenSelectElement`    | 视图选中元素事件     | `{object}` 选中元素的对象                                                                | -    |
+| `screenMoveElementStart` | 视图移动元素开始事件 | `{object}` 选中元素的对象`uuid` 以及当前的所在画布的 `x`和`y`                            | -    |
+| `screenMoveElementEnd`   | 视图移动元素结束事件 | `{object}` 选中元素的对象`uuid` 以及当前的所在画布的 `x`和`y`                            | -    |
+| `screenChangeElement`    | 视图修改元素内容事件 | `{object}` 选中元素的对象`uuid` 以及当前元素的 `x`、`y`、`width`、 `height`和`angle`数据 | -    |
+| `changeData`             | 修改画图数据         | `{object}` 画图内容数据                                                                  | -    |
+| `changeScreen`           | 修改画板画布视图     | `{object}` 视图变化数据                                                                  | -    |
 
-## Returns
+## 返回值
 
-> None
+> 返回值
 
-## Usage
+## 用法
 
 ```js
 import iDraw from 'idraw';
@@ -67,9 +67,9 @@ idraw.off('changeData');
 idraw.setData(data);
 ```
 
-## Example
+## 示例
 
-[More Demo >>](https://idraw.js.org/playground/?demo=api-on)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=api-on)
 
 <iframe class="idraw-playground-preview" 
   src="https://idraw.js.org/playground/?demo=api-on&header=false&sider=false&default-editor-split=50" 

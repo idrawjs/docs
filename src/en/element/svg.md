@@ -1,8 +1,8 @@
-# SVG
+# SVG元素
 
 ## SVG
 
-It is used to render SVG code snippet. The specific type is as follows:
+用来渲染`SVG`代码片，具体格式如下所示：
 
 ```ts
 type SVG = {
@@ -18,13 +18,13 @@ type SVG = {
 };
 ```
 
-## SVG.detail
+## SVG.detail 详解
 
-The basic attribute details of the element can be viewed [Element's Detail #](./info.md#element-s-detail).
+元素的基本属性详情可以看 [元素介绍-数据基本格式](./info.md#数据基本格式) 。
 
-### SVG.detail Data-Type
+### SVG.detail 数据格式
 
-The Data-Type of `SVG.detail`
+SVG 元素的`detail`属性
 
 ```ts
 type SVGDesc = {
@@ -32,13 +32,13 @@ type SVGDesc = {
 };
 ```
 
-### SVG.detail Properties
+### SVG.detail 数据属性内容
 
-| Property | Description       | Type     | Default | Required | Others |
-| -------- | ----------------- | -------- | ------- | -------- | ------ |
-| svg      | HTML code snippet | `string` | -       | `true`   | -      |
+| 属性 | 说明        | 类型     | 默认值 | 是否必填 | 备注 |
+| ---- | ----------- | -------- | ------ | -------- | ---- |
+| svg  | SVG代码片段 | `string` | -      | `true`   | -    |
 
-## Complete Data Example
+## 完整数据示例
 
 ```js
 const elementSVG = {
@@ -55,9 +55,9 @@ const elementSVG = {
 };
 ```
 
-## Demo Preview
+## 效果预览
 
-[More Demo >>](https://idraw.js.org/playground/?demo=elem-svg)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-svg)
 
 <iframe class="idraw-playground-preview" 
     src="https://idraw.js.org/playground/?demo=elem-svg&header=false&sider=false&default-editor-split=50" 
