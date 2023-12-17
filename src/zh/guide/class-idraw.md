@@ -3,7 +3,7 @@
 ## 参数
 
 ```js
-import iDraw from 'idraw';
+import { iDraw } from 'idraw';
 const dom = document.querySelector('#app');
 const options = {
   width: 600,
@@ -56,10 +56,10 @@ type Options = {
 
 ### Options 效果预览
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=options)
+[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=basic-options)
 
 <iframe class="idraw-playground-preview" 
-    src="https://idraw.js.org/playground/?demo=options&header=false&sider=false&default-editor-split=50" 
+    src="https://idraw.js.org/playground/?demo=basic-options&header=false&sider=false&default-editor-split=50" 
     width="1000" height="440" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>

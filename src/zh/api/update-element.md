@@ -15,7 +15,7 @@
 ## 用法
 
 ```js
-import iDraw from 'idraw';
+import { iDraw } from 'idraw';
 
 const data = {
   elements: [

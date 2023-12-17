@@ -60,9 +60,9 @@ type Element = {
 ## 画图元素的使用
 
 ```js
-import iDraw from 'idraw';
+import { iDraw } from 'idraw';
 
-import iDraw from 'idraw';
+import { iDraw } from 'idraw';
 const data = {
   elements: [
     {

@@ -42,7 +42,7 @@
 ## 用法
 
 ```js
-import iDraw from 'idraw';
+import { iDraw } from 'idraw';
 const app = document.querySelector('#app');
 const options = {
   width: 600,

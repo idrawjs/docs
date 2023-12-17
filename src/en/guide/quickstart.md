@@ -27,7 +27,7 @@ npm install idraw
 ## Use iDraw.js
 
 ```js
-import iDraw from 'idraw';
+import { iDraw } from 'idraw';
 const data = {
   elements: [
     {
