@@ -10,10 +10,10 @@ hero:
     - theme: brand
       text: Quick Started
       link: /en-US/guide/quickstart
-    - theme: alt
-      text: Playground
-      link: https://idraw.js.org/playground/
     - theme: brand
+      text: 中文文档
+      link: /zh-CN/index
+    - theme: alt
       text: iDraw Studio
       link: https://idraw.js.org/studio/
   image: /assets/idraw.png

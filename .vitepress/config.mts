@@ -58,7 +58,12 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/idrawjs/idraw' }]
   },
   locales: {
-    root: {
+    // root: {
+    //   label: 'English',
+    //   lang: 'en-US',
+    //   link: '/en-US/'
+    // },
+    'en-US': {
       label: 'English',
       lang: 'en-US',
       link: '/en-US/'
@@ -66,7 +71,7 @@ export default defineConfig({
     'zh-CN': {
       label: '中文',
       lang: 'zh-CN',
-      link: '/zh-CN',
+      link: '/zh-CN/',
       themeConfig: {
         logo: {
           src: './assets/idraw.png'
