@@ -10,13 +10,8 @@ const options = {
   height: 400,
   devicePixelRatio: 2
 };
-const config = {
-  scrollWrapper: {
-    use: true
-  }
-};
 
-const idraw = new iDraw(dom, options, config);
+const idraw = new iDraw(dom, options);
 ```
 
 | Arugment | Description             | Type             | Default | Required | Others |
@@ -31,26 +26,28 @@ type Options = {
   width: number;
   height: number;
   devicePixelRatio: number;
-  disableScroll?: boolean;
-  disableSelect?: boolean;
-  disableScale?: boolean;
-  disableRuler?: boolean;
-  disableTextEdit?: boolean;
+  enableScroll?: boolean;
+  enableSelect?: boolean;
+  enableScale?: boolean;
+  enableRuler?: boolean;
+  enableTextEdit?: boolean;
+  enableDrag?: boolean;
 };
 ```
 
 ### Options Properties
 
-| Property         | Description                    | Type      | Default | Required | Others |
-| ---------------- | ------------------------------ | --------- | ------- | -------- | ------ |
-| width            | Drawing board's width          | `number`  | -       | `true`   | -      |
-| height           | Drawing board's height         | `number`  | -       | `true`   | -      |
-| devicePixelRatio | Device pixel scale             | `number`  | `1`     | `false`  | -      |
-| disableScroll    | Disable canvas scroll          | `boolean` | `false` | `false`  | -      |
-| disableSelect    | Disable canvas select elements | `boolean` | `false` | `false`  | -      |
-| disableScale     | Disable scale                  | `boolean` | `false` | `false`  | -      |
-| disableRuler     | Disable ruler                  | `boolean` | `false` | `false`  | -      |
-| disableTextEdit  | Disable editing text           | `boolean` | `false` | `false`  | -      |
+| Property         | Description                                                         | Type      | Default | Required | Others |
+| ---------------- | ------------------------------------------------------------------- | --------- | ------- | -------- | ------ |
+| width            | Drawing board's width                                               | `number`  | -       | `true`   | -      |
+| height           | Drawing board's height                                              | `number`  | -       | `true`   | -      |
+| devicePixelRatio | Device pixel scale                                                  | `number`  | `1`     | `false`  | -      |
+| enableScroll     | Enable canvas scroll                                                | `boolean` | `true`  | `false`  | -      |
+| enableSelect     | Enable canvas select elements, Mutually exclusive with `enableDrag` | `boolean` | `true`  | `false`  | -      |
+| enableScale      | Enable scale                                                        | `boolean` | `true`  | `false`  | -      |
+| enableRuler      | Enable ruler                                                        | `boolean` | `true`  | `false`  | -      |
+| enableTextEdit   | Enable editing text                                                 | `boolean` | `true`  | `false`  | -      |
+| enableDrag       | Enable drag feature, Mutually exclusive with `enableSelect`         | `boolean` | `false` | `false`  | -      |
 
 ### Options Preivew
 
