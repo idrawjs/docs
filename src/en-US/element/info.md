@@ -42,8 +42,8 @@ type Element = {
 ### Element Basic Properties
 
 | Property             | Description                          | Type                                                                | Default | Required | Others                                                                           |
-| -------------------- | ------------------------------------ | ------------------------------------------------------------------- | ------- | -------- | -------------------------------------------------------------------------------- | --- | ------ | --- | ------ | --- |
-| type                 | Element type                         | ` text                                                              | rect    | circle   | image                                                                            | svg | html ` | -   | `true` | -   |
+| -------------------- | ------------------------------------ | ------------------------------------------------------------------- | ------- | -------- | -------------------------------------------------------------------------------- |
+| type                 | Element type                         | `text\| rect\| circle\| image\| svg \| html`                        | -       | `true`   | -                                                                                |
 | uuid                 | Element unique ID                    | `string`                                                            | -       | `false`  | The UUID is automatically added internally in iDraw.js                           |
 | name                 | Element name                         | `string`                                                            | -       | `false`  | -                                                                                |
 | x                    | X-axis offset                        | `number`                                                            | -       | `true`   | -                                                                                |
