@@ -1,15 +1,13 @@
-# resize
+# centerContent
 
 ## Introduction
 
-`resize` The drawing view size can be modified again
+`centerContent` Display the content in the center of the view. If the content size exceeds the view, the content will be proportionally reduced and centered in the view.
 
 ## Arguments
 
-- `{object}` `options`
-  - `{number}` `options.width`
-  - `{number}` `options.height`
-  - `{number}` `options.devicePixelRatio`
+- `{object} options`
+  - `{Data}` `options.data` Optionally, calculate new content data for centered dimensions.
 
 ## Returns
 
@@ -35,19 +33,15 @@ idraw.setData({
   ]
 });
 
-idraw.resetSize({
-  width: 300,
-  height: 200,
-  devicePixelRatio: 2
-});
+idraw.centerContent();
 ```
 
 ## Example
 
-[More Demo](https://idraw.js.org/playground/?demo=api-resize)
+[More Demo](https://idraw.js.org/playground/?demo=api-centerContent)
 
 <iframe class="idraw-playground-preview" 
-  src="https://idraw.js.org/playground/?demo=api-resize&header=false&sider=false&default-editor-split=50" 
+  src="https://idraw.js.org/playground/?demo=api-centerContent&header=false&sider=false&default-editor-split=50" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

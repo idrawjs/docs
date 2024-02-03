@@ -6,7 +6,8 @@
 
 ## Arguments
 
-> None
+- `{object}` `options`
+  - `{boolean}` `options.compact`
 
 ## Returns
 
