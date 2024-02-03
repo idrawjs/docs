@@ -51,7 +51,8 @@ export default defineConfig({
           { text: 'updateElement', link: '/en-US/api/update-element' },
           { text: 'deleteElement', link: '/en-US/api/delete-element' },
           { text: 'moveElement', link: '/en-US/api/move-element' },
-          { text: 'resize', link: '/en-US/api/resize' }
+          { text: 'resize', link: '/en-US/api/resize' },
+          { text: 'centerContent', link: '/en-US/api/centerContent' }
         ]
       }
     ],
@@ -115,7 +116,8 @@ export default defineConfig({
               { text: 'updateElement', link: '/zh-CN/api/update-element' },
               { text: 'deleteElement', link: '/zh-CN/api/delete-element' },
               { text: 'moveElement', link: '/zh-CN/api/move-element' },
-              { text: 'resize', link: '/zh-CN/api/resize' }
+              { text: 'resize', link: '/zh-CN/api/resize' },
+              { text: 'centerContent', link: '/zh-CN/api/centerContent' }
             ]
           }
         ],
