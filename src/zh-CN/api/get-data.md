@@ -6,7 +6,8 @@
 
 ## 参数
 
-> 无参数
+- `{object}` `options` 选项，非必填
+  - `{boolean}` `options.compact` 压缩，非必选
 
 ## 返回值
 
