@@ -32,7 +32,7 @@ For prototyping or learning purposes, you can use the latest version with:
 <!-- use global value -->
 <script>
   (function () {
-    const iDraw = window.iDraw;
+    const { iDraw } = window.iDraw;
     const app = document.querySelector('#app');
     const idraw = new iDraw(app, {
       width: 600,
