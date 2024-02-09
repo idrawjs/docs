@@ -80,6 +80,7 @@ export default defineConfig({
         },
         nav: [
           { text: '主页', link: '/zh-CN/' },
+          { text: '捐赠', link: '/zh-CN/sponsor' },
           { text: '演示', link: 'https://idrawjs.com/playground/' }
         ],
 
