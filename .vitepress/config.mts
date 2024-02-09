@@ -15,7 +15,8 @@ export default defineConfig({
     i18nRouting: true,
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Playground', link: 'https://idraw.js.org/playground/' }
+      { text: 'Sponsor', link: '/en-US/sponsor' },
+      { text: 'Playground', link: 'https://idrawjs.com/playground/' }
     ],
     sidebar: [
       {
@@ -79,7 +80,7 @@ export default defineConfig({
         },
         nav: [
           { text: '主页', link: '/zh-CN/' },
-          { text: '演示', link: 'https://idraw.js.org/playground/' }
+          { text: '演示', link: 'https://idrawjs.com/playground/' }
         ],
 
         sidebar: [

@@ -12,10 +12,10 @@ hero:
       link: /zh-CN/guide/quickstart
     - theme: alt
       text: 演示
-      link: https://idraw.js.org/playground/
+      link: https://idrawjs.com/playground/
     - theme: brand
       text: 产品 iDraw Studio
-      link: https://idraw.js.org/studio/
+      link: https://idrawjs.com/studio/
   image: ../assets/idraw.png
 
 features:

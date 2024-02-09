@@ -69,10 +69,10 @@ const elementRect = {
 
 ## 效果预览
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-rect)
+[Demo完整预览 Playground >>](https://idrawjs.com/playground/?demo=elem-rect)
 
 <iframe class="idraw-playground-preview" 
-    src="https://idraw.js.org/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50" 
+    src="https://idrawjs.com/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50" 
     width="1000" height="540" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>

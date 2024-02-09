@@ -46,10 +46,10 @@ idraw.addElement({
 
 ## Example
 
-[More Demo >>](https://idraw.js.org/playground/?demo=api-addElement)
+[More Demo >>](https://idrawjs.com/playground/?demo=api-addElement)
 
 <iframe class="idraw-playground-preview" 
-  src="https://idraw.js.org/playground/?demo=api-addElement&header=false&sider=false&default-editor-split=50" 
+  src="https://idrawjs.com/playground/?demo=api-addElement&header=false&sider=false&default-editor-split=50" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>
