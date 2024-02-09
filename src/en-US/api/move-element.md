@@ -39,10 +39,10 @@ idraw.moveElement(uuid, { position: [1, 2] });
 
 ## Example
 
-[More Demo](https://idraw.js.org/playground/?demo=api-moveElement)
+[More Demo](https://idrawjs.com/playground/?demo=api-moveElement)
 
 <iframe class="idraw-playground-preview" 
-  src="https://idraw.js.org/playground/?demo=api-moveElement&header=false&sider=false&default-editor-split=50" 
+  src="https://idrawjs.com/playground/?demo=api-moveElement&header=false&sider=false&default-editor-split=50" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

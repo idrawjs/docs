@@ -106,10 +106,10 @@ const elementHTML = {
 
 ## 效果预览
 
-[Demo完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-html)
+[Demo完整预览 Playground >>](https://idrawjs.com/playground/?demo=elem-html)
 
 <iframe class="idraw-playground-preview" 
-    src="https://idraw.js.org/playground/?demo=elem-html&header=false&sider=false&default-editor-split=50" 
+    src="https://idrawjs.com/playground/?demo=elem-html&header=false&sider=false&default-editor-split=50" 
     width="1000" height="540" frameborder="no" border="0"
     style="border: 1px solid #cecece; margin: 0px auto;"
   ></iframe>

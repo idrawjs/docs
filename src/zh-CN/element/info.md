@@ -99,8 +99,8 @@ idraw.setData(data);
 
 ## 示例预览
 
-[Demo 完整预览 Playground >>](https://idraw.js.org/playground/?demo=elem-rect)
+[Demo 完整预览 Playground >>](https://idrawjs.com/playground/?demo=elem-rect)
 
-<iframe class="idraw-playground-preview" src="https://idraw.js.org/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50"
+<iframe class="idraw-playground-preview" src="https://idrawjs.com/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50"
       frameborder="no" border="0" 
   ></iframe>

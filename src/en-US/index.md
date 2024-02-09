@@ -12,10 +12,10 @@ hero:
       link: /en-US/guide/quickstart
     - theme: alt
       text: Playground
-      link: https://idraw.js.org/playground/
+      link: https://idrawjs.com/playground/
     - theme: brand
       text: iDraw Studio
-      link: https://idraw.js.org/studio/
+      link: https://idrawjs.com/studio/
   image: /assets/idraw.png
 
 features:

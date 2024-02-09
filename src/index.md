@@ -15,7 +15,7 @@ hero:
       link: /zh-CN/index
     - theme: alt
       text: iDraw Studio
-      link: https://idraw.js.org/studio/
+      link: https://idrawjs.com/studio/
   image: /assets/idraw.png
 
 features:

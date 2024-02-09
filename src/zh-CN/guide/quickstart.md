@@ -6,7 +6,7 @@
 
 <div>
   <iframe class="idraw-playground-preview" 
-    src="https://idraw.js.org/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50" 
+    src="https://idrawjs.com/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50" 
     width="800" height="520" frameborder="no" border="0"
     style="border: 1px solid #cecece"
   ></iframe>

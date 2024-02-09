@@ -48,7 +48,7 @@ idraw.setData(data);
 ```
 
 <iframe class="idraw-playground-preview" 
-  src="https://idraw.js.org/playground/?demo=elem-text&header=false&sider=false&default-editor-split=50" 
+  src="https://idrawjs.com/playground/?demo=elem-text&header=false&sider=false&default-editor-split=50" 
   width="1000" height="450" frameborder="no" border="0"
   style="border: 1px solid #cecece"
 ></iframe>

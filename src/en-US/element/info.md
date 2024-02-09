@@ -99,8 +99,8 @@ idraw.setData(data);
 
 ## Demo Preview
 
-[More Demo >>](https://idraw.js.org/playground/?demo=elem-rect)
+[More Demo >>](https://idrawjs.com/playground/?demo=elem-rect)
 
-<iframe class="idraw-playground-preview" src="https://idraw.js.org/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50"
+<iframe class="idraw-playground-preview" src="https://idrawjs.com/playground/?demo=elem-rect&header=false&sider=false&default-editor-split=50"
       frameborder="no" border="0" 
   ></iframe>
