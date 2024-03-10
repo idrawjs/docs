@@ -26,28 +26,16 @@ type Options = {
   width: number;
   height: number;
   devicePixelRatio: number;
-  enableScroll?: boolean;
-  enableSelect?: boolean;
-  enableScale?: boolean;
-  enableRuler?: boolean;
-  enableTextEdit?: boolean;
-  enableDrag?: boolean;
 };
 ```
 
 ### Options Properties
 
-| Property         | Description                                                         | Type      | Default | Required | Others |
-| ---------------- | ------------------------------------------------------------------- | --------- | ------- | -------- | ------ |
-| width            | Drawing board's width                                               | `number`  | -       | `true`   | -      |
-| height           | Drawing board's height                                              | `number`  | -       | `true`   | -      |
-| devicePixelRatio | Device pixel scale                                                  | `number`  | `1`     | `false`  | -      |
-| enableScroll     | Enable canvas scroll                                                | `boolean` | `true`  | `false`  | -      |
-| enableSelect     | Enable canvas select elements, Mutually exclusive with `enableDrag` | `boolean` | `true`  | `false`  | -      |
-| enableScale      | Enable scale                                                        | `boolean` | `true`  | `false`  | -      |
-| enableRuler      | Enable ruler                                                        | `boolean` | `true`  | `false`  | -      |
-| enableTextEdit   | Enable editing text                                                 | `boolean` | `true`  | `false`  | -      |
-| enableDrag       | Enable drag feature, Mutually exclusive with `enableSelect`         | `boolean` | `false` | `false`  | -      |
+| Property         | Description            | Type     | Default | Required | Others |
+| ---------------- | ---------------------- | -------- | ------- | -------- | ------ |
+| width            | Drawing board's width  | `number` | -       | `true`   | -      |
+| height           | Drawing board's height | `number` | -       | `true`   | -      |
+| devicePixelRatio | Device pixel scale     | `number` | `1`     | `false`  | -      |
 
 ### Options Preivew
 

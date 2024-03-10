@@ -1,19 +1,19 @@
 # centerContent
 
-## Introduction
+## 说明
 
-`centerContent` Display the content in the center of the view. If the content size exceeds the view, the content will be proportionally reduced and centered in the view.
+`centerContent` 让内容在视图居中显示，如果内容尺寸超出视图，就会把内容按比例缩小居中在视图中。
 
-## Arguments
+## 参数
 
 - `{object} options`
-  - `{Data}` `options.data` Optionally, calculate new content data for centered dimensions.
+  - `{Data}` `options.data` 可选，计算居中尺寸的新内容数据。
 
-## Returns
+## 返回值
 
-> N/A
+> 无返回值
 
-## Usage
+## 用法
 
 ```js
 import { iDraw } from 'idraw';
@@ -24,9 +24,7 @@ const options = {
   height: 400,
   devicePixelRatio: 2
 };
-const idraw = new iDraw(app, options, {
-  scrollWrapper: { use: true }
-});
+const idraw = new iDraw(app, options);
 idraw.setData({
   element: [
     /* ... */
@@ -36,9 +34,9 @@ idraw.setData({
 idraw.centerContent();
 ```
 
-## Example
+## 示例
 
-[More Demo](https://idrawjs.com/playground/?demo=api-centerContent)
+[Demo完整预览 Playground >>](https://idrawjs.com/playground/?demo=api-centerContent)
 
 <iframe class="idraw-playground-preview" 
   src="https://idrawjs.com/playground/?demo=api-centerContent&header=false&sider=false&default-editor-split=50" 

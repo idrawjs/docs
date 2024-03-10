@@ -26,16 +26,14 @@ const options = {
   height: 400,
   devicePixelRatio: 2
 };
-const idraw = new iDraw(app, options, {
-  scrollWrapper: { use: true }
-});
+const idraw = new iDraw(app, options);
 idraw.setData({
   element: [
     /* ... */
   ]
 });
 
-idraw.resetSize({
+idraw.resize({
   width: 300,
   height: 200,
   devicePixelRatio: 2

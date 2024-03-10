@@ -47,13 +47,15 @@ export default defineConfig({
         items: [
           { text: 'setData', link: '/en-US/api/set-data' },
           { text: 'getData', link: '/en-US/api/get-data' },
+          { text: 'setMode', link: '/en-US/api/set-mode' },
           { text: 'selectElement', link: '/en-US/api/select-element' },
           { text: 'addElement', link: '/en-US/api/add-element' },
           { text: 'updateElement', link: '/en-US/api/update-element' },
           { text: 'deleteElement', link: '/en-US/api/delete-element' },
           { text: 'moveElement', link: '/en-US/api/move-element' },
           { text: 'resize', link: '/en-US/api/resize' },
-          { text: 'centerContent', link: '/en-US/api/centerContent' }
+          { text: 'centerContent', link: '/en-US/api/center-content' },
+          { text: 'enable/disable', link: '/en-US/api/enable-disable' }
         ]
       }
     ],
@@ -113,13 +115,15 @@ export default defineConfig({
             items: [
               { text: 'setData', link: '/zh-CN/api/set-data' },
               { text: 'getData', link: '/zh-CN/api/get-data' },
+              { text: 'setMode', link: '/zh-CN/api/set-mode' },
               { text: 'selectElement', link: '/zh-CN/api/select-element' },
               { text: 'addElement', link: '/zh-CN/api/add-element' },
               { text: 'updateElement', link: '/zh-CN/api/update-element' },
               { text: 'deleteElement', link: '/zh-CN/api/delete-element' },
               { text: 'moveElement', link: '/zh-CN/api/move-element' },
               { text: 'resize', link: '/zh-CN/api/resize' },
-              { text: 'centerContent', link: '/zh-CN/api/centerContent' }
+              { text: 'centerContent', link: '/zh-CN/api/center-content' },
+              { text: 'enable/disable', link: '/zh-CN/api/enable-disable' }
             ]
           }
         ],
