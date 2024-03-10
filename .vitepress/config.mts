@@ -53,7 +53,7 @@ export default defineConfig({
           { text: 'deleteElement', link: '/en-US/api/delete-element' },
           { text: 'moveElement', link: '/en-US/api/move-element' },
           { text: 'resize', link: '/en-US/api/resize' },
-          { text: 'centerContent', link: '/en-US/api/centerContent' }
+          { text: 'centerContent', link: '/en-US/api/center-content' }
         ]
       }
     ],
@@ -119,7 +119,7 @@ export default defineConfig({
               { text: 'deleteElement', link: '/zh-CN/api/delete-element' },
               { text: 'moveElement', link: '/zh-CN/api/move-element' },
               { text: 'resize', link: '/zh-CN/api/resize' },
-              { text: 'centerContent', link: '/zh-CN/api/centerContent' }
+              { text: 'centerContent', link: '/zh-CN/api/center-content' }
             ]
           }
         ],
