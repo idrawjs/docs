@@ -1,15 +1,19 @@
-# resize
+# setMode
 
 ## 说明
 
-`resize` 可以对图画视图尺寸进行再次修改
+`setMode` 可以切换视图操作模式
 
 ## 参数
 
-- `{object}` `options` 视图尺寸选项
-  - `{number}` `options.width` 画板宽度，非必选
-  - `{number}` `options.height` 画板高度，非必选
-  - `{number}` `options.devicePixelRatio` 设备像素比例，非必选
+- `{IDrawType}` `mode` 视图操作模式
+  - `'select'`: 选择模式，也是默认模式，用于选择和编辑元素
+  - `'drag'`: 拖拽模式，用于拖拽移动整体画布位置
+  - `'readOnly'`: 只读模式，仅显示视图内容，无法进行编辑操作
+
+```ts
+type IDrawMode = 'select' | 'drag' | 'readOnly';
+```
 
 ## 返回值
 
@@ -27,17 +31,7 @@ const options = {
   devicePixelRatio: 2
 };
 const idraw = new iDraw(app, options);
-idraw.setData({
-  element: [
-    /* ... */
-  ]
-});
-
-idraw.resize({
-  width: 300,
-  height: 200,
-  devicePixelRatio: 2
-});
+idraw.setMode('readOnly');
 ```
 
 ## 示例
@@ -45,7 +39,7 @@ idraw.resize({
 [Demo完整预览 Playground >>](https://idrawjs.com/playground/?demo=api-resize)
 
 <iframe class="idraw-playground-preview" 
-  src="https://idrawjs.com/playground/?demo=api-resize&header=false&sider=false&default-editor-split=50" 
+  src="https://idrawjs.com/playground/?demo=api-setMode&header=false&sider=false&default-editor-split=50" 
   width="1000" height="480" frameborder="no" border="0"
   style="border: 1px solid #cecece; margin: 0px auto;"
 ></iframe>

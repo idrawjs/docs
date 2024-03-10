@@ -47,6 +47,7 @@ export default defineConfig({
         items: [
           { text: 'setData', link: '/en-US/api/set-data' },
           { text: 'getData', link: '/en-US/api/get-data' },
+          { text: 'setMode', link: '/en-US/api/set-mode' },
           { text: 'selectElement', link: '/en-US/api/select-element' },
           { text: 'addElement', link: '/en-US/api/add-element' },
           { text: 'updateElement', link: '/en-US/api/update-element' },
@@ -113,6 +114,7 @@ export default defineConfig({
             items: [
               { text: 'setData', link: '/zh-CN/api/set-data' },
               { text: 'getData', link: '/zh-CN/api/get-data' },
+              { text: 'setMode', link: '/zh-CN/api/set-mode' },
               { text: 'selectElement', link: '/zh-CN/api/select-element' },
               { text: 'addElement', link: '/zh-CN/api/add-element' },
               { text: 'updateElement', link: '/zh-CN/api/update-element' },
