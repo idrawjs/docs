@@ -28,28 +28,16 @@ type Options = {
   width: number;
   height: number;
   devicePixelRatio: number;
-  enableScroll?: boolean;
-  enableSelect?: boolean;
-  enableScale?: boolean;
-  enableRuler?: boolean;
-  enableTextEdit?: boolean;
-  enableDrag?: boolean;
 };
 ```
 
 ### Options 属性
 
-| 属性             | 说明                                 | 类型      | 默认值  | 是否必填 | 备注 |
-| ---------------- | ------------------------------------ | --------- | ------- | -------- | ---- |
-| width            | 画板宽度                             | `number`  | -       | `true`   | -    |
-| height           | 画板高度                             | `number`  | -       | `true`   | -    |
-| devicePixelRatio | 设备像素比例                         | `number`  | `1`     | `false`  | -    |
-| enableScroll     | 启用视图滚动                         | `boolean` | `true`  | `false`  | -    |
-| enableSelect     | 启用元素选择（和`enableDrag`互斥）   | `boolean` | `true`  | `false`  | -    |
-| enableScale      | 启用视图缩放                         | `boolean` | `true`  | `false`  | -    |
-| enableRuler      | 启用视图标尺                         | `boolean` | `true`  | `false`  | -    |
-| enableTextEdit   | 启用文本编辑                         | `boolean` | `true`  | `false`  | -    |
-| enableDrag       | 启用视图拖拽（和`enableSelect`互斥） | `boolean` | `false` | `false`  | -    |
+| 属性             | 说明         | 类型     | 默认值 | 是否必填 | 备注 |
+| ---------------- | ------------ | -------- | ------ | -------- | ---- |
+| width            | 画板宽度     | `number` | -      | `true`   | -    |
+| height           | 画板高度     | `number` | -      | `true`   | -    |
+| devicePixelRatio | 设备像素比例 | `number` | `1`    | `false`  | -    |
 
 ### Options 效果预览
 
