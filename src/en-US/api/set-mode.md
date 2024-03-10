@@ -36,7 +36,7 @@ idraw.setMode('readOnly');
 
 ## Example
 
-[More Demo >>](https://idrawjs.com/playground/?demo=api-resize)
+[More Demo >>](https://idrawjs.com/playground/?demo=api-setMode)
 
 <iframe class="idraw-playground-preview" 
   src="https://idrawjs.com/playground/?demo=api-setMode&header=false&sider=false&default-editor-split=50" 

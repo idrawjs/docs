@@ -54,7 +54,8 @@ export default defineConfig({
           { text: 'deleteElement', link: '/en-US/api/delete-element' },
           { text: 'moveElement', link: '/en-US/api/move-element' },
           { text: 'resize', link: '/en-US/api/resize' },
-          { text: 'centerContent', link: '/en-US/api/center-content' }
+          { text: 'centerContent', link: '/en-US/api/center-content' },
+          { text: 'enable/disable', link: '/en-US/api/enable-disable' }
         ]
       }
     ],
@@ -121,7 +122,8 @@ export default defineConfig({
               { text: 'deleteElement', link: '/zh-CN/api/delete-element' },
               { text: 'moveElement', link: '/zh-CN/api/move-element' },
               { text: 'resize', link: '/zh-CN/api/resize' },
-              { text: 'centerContent', link: '/zh-CN/api/center-content' }
+              { text: 'centerContent', link: '/zh-CN/api/center-content' },
+              { text: 'enable/disable', link: '/zh-CN/api/enable-disable' }
             ]
           }
         ],
