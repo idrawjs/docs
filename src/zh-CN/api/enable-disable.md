@@ -9,10 +9,12 @@
 
 - `{IDrawFeature}` `feat` 功能类型
   - `'ruler'`: 标尺功能
+  - `'scroll'`: 滚动条功能
+  - `'scale'`: 缩放功能
   - `-` 其它功能待开发 ...
 
 ```ts
-type IDrawFeature = 'ruler' | string; // TODO other feature
+type IDrawFeature = 'ruler' | 'scroll' | 'scale'; // TODO other feature
 ```
 
 ## 返回值
