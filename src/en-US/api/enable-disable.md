@@ -9,10 +9,12 @@
 
 - `{IDrawFeature}` `feat` Feature type
   - `'ruler'`: Ruler feature
+  - `'scroll'`: Scroll feature
+  - `'scale'`: Scale feature
   - `-` Other features are to be developed...
 
 ```ts
-type IDrawFeature = 'ruler' | string; // TODO other features
+type IDrawFeature = 'ruler' | 'scroll' | 'scale'; // TODO other feature
 ```
 
 ## Returns
