@@ -11,10 +11,11 @@
   - `'ruler'`: Ruler feature
   - `'scroll'`: Scroll feature
   - `'scale'`: Scale feature
+  - `'info'`: Display information, eg. element size
   - `-` Other features are to be developed...
 
 ```ts
-type IDrawFeature = 'ruler' | 'scroll' | 'scale'; // TODO other feature
+type IDrawFeature = 'ruler' | 'scroll' | 'scale' | 'info'; // TODO other feature
 ```
 
 ## Returns
