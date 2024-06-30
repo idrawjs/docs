@@ -9,9 +9,8 @@ export default defineConfig({
   outDir: './docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: {
-      src: './assets/idraw.png'
-    },
+    // logo: './assets/idraw.png',
+    logo: 'https://idrawjs.com/idraw-logo.png',
     i18nRouting: true,
     nav: [
       { text: 'Home', link: '/' },
