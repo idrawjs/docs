@@ -12,10 +12,12 @@
   - `'scroll'`: 滚动条功能
   - `'scale'`: 缩放功能
   - `'info'`: 信息显示功能，例如显示坐标信息
+  - `'selectInGroup'`: 在组合中选择元素
+  - `'snapToGrid'`: 对其到网格和辅助线
   - `-` 其它功能待开发 ...
 
 ```ts
-type IDrawFeature = 'ruler' | 'scroll' | 'scale' | 'info'; // TODO other feature
+type IDrawFeature = 'ruler' | 'scroll' | 'scale' | 'info' | 'selectInGroup' | 'snapToGrid'; // TODO other feature
 ```
 
 ## 返回值

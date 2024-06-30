@@ -55,7 +55,8 @@ export default defineConfig({
           { text: 'moveElement', link: '/en-US/api/move-element' },
           { text: 'resize', link: '/en-US/api/resize' },
           { text: 'centerContent', link: '/en-US/api/center-content' },
-          { text: 'enable/disable', link: '/en-US/api/enable-disable' }
+          { text: 'enable/disable', link: '/en-US/api/enable-disable' },
+          { text: 'getImageBlobURL', link: '/en-US/api/get-image-blob-url' }
         ]
       }
     ],
@@ -123,7 +124,8 @@ export default defineConfig({
               { text: 'moveElement', link: '/zh-CN/api/move-element' },
               { text: 'resize', link: '/zh-CN/api/resize' },
               { text: 'centerContent', link: '/zh-CN/api/center-content' },
-              { text: 'enable/disable', link: '/zh-CN/api/enable-disable' }
+              { text: 'enable/disable', link: '/zh-CN/api/enable-disable' },
+              { text: 'getImageBlobURL', link: '/zh-CN/api/get-image-blob-url' }
             ]
           }
         ],
