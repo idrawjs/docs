@@ -32,7 +32,7 @@ type Element = {
   detail: any; // 不同元素的描述内容不一样
   // operations 为元素操控配置
   operations?: {
-    lock?: boolean;
+    locked?: boolean;
     invisible?: boolean;
     limitRatio?: boolean;
   };
@@ -53,7 +53,7 @@ type Element = {
 | h                     | 元素高度             | `number`                                 | -       | -                                      |
 | angle                 | 元素旋转角度         | `number`                                 | `0`     | `[0, 360]`                             |
 | detail                | 元素描述内容         | `object` (详情请查看各元素描述内容)      | -       | -                                      |
-| operations.lock       | 元素是否锁住         | `boolean`                                | `false` | 元素锁住后就不能进行视图操作           |
+| operations.locked     | 元素是否锁住         | `boolean`                                | `false` | 元素锁住后就不能进行视图操作           |
 | operations.invisible  | 元素是否不可见       | `boolean`                                | `false` | 元素不可见就不会渲染                   |
 | operations.limitRatio | 元素是否限制宽高比例 | `boolean`                                | -       | 在元素缩放时候，按照其宽高比例进行缩放 |
 
