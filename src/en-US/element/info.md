@@ -31,7 +31,7 @@ type Element = {
   angle?: number;
   detail: any; // Different element has different description
   operations?: {
-    lock?: boolean;
+    locked?: boolean;
     invisible?: boolean;
     limitRatio?: boolean;
   };
@@ -51,9 +51,9 @@ type Element = {
 | w                    | Element width                        | `number`                                                            | -       | `true`   | -                                                                                |
 | h                    | Element height                       | `number`                                                            | -       | `true`   | -                                                                                |
 | angle                | Element rotation angle               | `number`                                                            | `0`     | `false`  | `[0, 360]`                                                                       |
-| lock                 | Set the lock-staus of element        | `boolean`                                                           | `false` | `false`  | The view operation cannot be controlled after the element is locked              |
+| locked               | Set the lock-staus of element        | `boolean`                                                           | `false` | `false`  | The view operation cannot be controlled after the element is locked              |
 | detail               | Detail of different elements         | `object` (Please check the description of each element for details) | -       | `true`   | -                                                                                |
-| operation.lock       | Set the lock-staus of element        | `boolean`                                                           | `false` | `false`  | The view operation cannot be controlled after the element is locked              |
+| operation.locked     | Set the locked-staus of element      | `boolean`                                                           | `false` | `false`  | The view operation cannot be controlled after the element is locked              |
 | operation.invisible  | -                                    | `boolean`                                                           | `false` | `false`  | -                                                                                |
 | operation.limitRatio | Limit element width and height ratio | `boolean`                                                           | -       | `false`  | When the element is scaled, it is scaled according to its width and height ratio |
 
