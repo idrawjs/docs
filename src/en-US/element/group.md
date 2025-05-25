@@ -50,6 +50,12 @@ type GroupDetail = {
 | borderWidth  | Border width of Group         | `number`         | `0`     | `false`  | -             |
 | borderColor  | Border color of Group         | `number`         | `0`     | `false`  | eg. `#000000` |
 
+### Group.operations Properties
+
+| Property     | Description                         | Type                                    | Default      | Required | Others                                                                                                                                                                                                                    |
+| ------------ | ----------------------------------- | --------------------------------------- | ------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| resizeEffect | Adjustment effect on child elements | `'absolute' \| 'deepResize' \| 'fixed'` | `'absolute'` | `true`   | `'absolute'`Enables absolute positioning for child elements. `'deepResize'`Makes child elements proportionally resize with parent element. `'fixed'` Makes child elements in fixed positions relative to canvas container |
+
 ## Complete Data Example
 
 ```js
