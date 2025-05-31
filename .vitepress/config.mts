@@ -57,7 +57,9 @@ export default defineConfig({
           { text: 'scale', link: '/en-US/api/scale' },
           { text: 'centerContent', link: '/en-US/api/center-content' },
           { text: 'enable/disable', link: '/en-US/api/enable-disable' },
-          { text: 'getImageBlobURL', link: '/en-US/api/get-image-blob-url' }
+          { text: 'getImageBlobURL', link: '/en-US/api/get-image-blob-url' },
+          { text: 'undo/redo', link: '/en-US/api/undo-redo' },
+          { text: 'on/off', link: '/en-US/api/on-off' }
         ]
       }
     ],
@@ -101,34 +103,36 @@ export default defineConfig({
           {
             text: '元素',
             items: [
-              { text: 'Basic', link: '/zh-CN/element/info' },
-              { text: 'Text', link: '/zh-CN/element/text' },
-              { text: 'Rect', link: '/zh-CN/element/rect' },
-              { text: 'Circle', link: '/zh-CN/element/circle' },
-              { text: 'Image', link: '/zh-CN/element/image' },
-              { text: 'SVG', link: '/zh-CN/element/svg' },
-              { text: 'HTML', link: '/zh-CN/element/html' },
-              { text: 'Path', link: '/zh-CN/element/path' },
-              { text: 'Group', link: '/zh-CN/element/group' }
+              { text: 'Basic 元素基础', link: '/zh-CN/element/info' },
+              { text: 'Text 文本元素', link: '/zh-CN/element/text' },
+              { text: 'Rect 矩形元素', link: '/zh-CN/element/rect' },
+              { text: 'Circle 圆形元素', link: '/zh-CN/element/circle' },
+              { text: 'Image 图片元素', link: '/zh-CN/element/image' },
+              { text: 'SVG 资源元素', link: '/zh-CN/element/svg' },
+              { text: 'HTML 资源元素', link: '/zh-CN/element/html' },
+              { text: 'Path 路径元素', link: '/zh-CN/element/path' },
+              { text: 'Group 组元素', link: '/zh-CN/element/group' }
             ]
           },
           {
             text: 'API',
             items: [
-              { text: 'setData', link: '/zh-CN/api/set-data' },
-              { text: 'getData', link: '/zh-CN/api/get-data' },
-              { text: 'setMode', link: '/zh-CN/api/set-mode' },
-              { text: 'selectElement', link: '/zh-CN/api/select-element' },
-              { text: 'addElement', link: '/zh-CN/api/add-element' },
-              { text: 'modifyElement', link: '/zh-CN/api/modify-element' },
-              { text: 'updateElement', link: '/zh-CN/api/update-element' },
-              { text: 'deleteElement', link: '/zh-CN/api/delete-element' },
-              { text: 'moveElement', link: '/zh-CN/api/move-element' },
-              { text: 'resize', link: '/zh-CN/api/resize' },
-              { text: 'scale', link: '/zh-CN/api/scale' },
-              { text: 'centerContent', link: '/zh-CN/api/center-content' },
-              { text: 'enable/disable', link: '/zh-CN/api/enable-disable' },
-              { text: 'getImageBlobURL', link: '/zh-CN/api/get-image-blob-url' }
+              { text: 'setData 设置数据', link: '/zh-CN/api/set-data' },
+              { text: 'getData 读取数据', link: '/zh-CN/api/get-data' },
+              { text: 'setMode 设置模式', link: '/zh-CN/api/set-mode' },
+              { text: 'selectElement 选择元素', link: '/zh-CN/api/select-element' },
+              { text: 'addElement 添加元素', link: '/zh-CN/api/add-element' },
+              { text: 'modifyElement 修改元素', link: '/zh-CN/api/modify-element' },
+              { text: 'updateElement 更新元素', link: '/zh-CN/api/update-element' },
+              { text: 'deleteElement 删除元素', link: '/zh-CN/api/delete-element' },
+              { text: 'moveElement 移动元素', link: '/zh-CN/api/move-element' },
+              { text: 'resize 重置画布尺寸', link: '/zh-CN/api/resize' },
+              { text: 'scale 缩放画布', link: '/zh-CN/api/scale' },
+              { text: 'centerContent 内容居中', link: '/zh-CN/api/center-content' },
+              { text: 'enable/disable 使用/禁用特性', link: '/zh-CN/api/enable-disable' },
+              { text: 'getImageBlobURL 导出图片URL', link: '/zh-CN/api/get-image-blob-url' },
+              { text: 'undo/redo 撤销/重做', link: '/zh-CN/api/undo-redo' },
+              { text: 'on/off 注册/取消事件', link: '/zh-CN/api/on-off' }
             ]
           }
         ],
