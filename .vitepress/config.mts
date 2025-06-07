@@ -42,6 +42,10 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Data',
+        items: [{ text: 'Layout', link: '/en-US/data/layout' }]
+      },
+      {
         text: 'API',
         items: [
           { text: 'setData', link: '/en-US/api/set-data' },
@@ -113,6 +117,10 @@ export default defineConfig({
               { text: 'Path 路径元素', link: '/zh-CN/element/path' },
               { text: 'Group 组元素', link: '/zh-CN/element/group' }
             ]
+          },
+          {
+            text: 'Data',
+            items: [{ text: 'Layout 布局', link: '/zh-CN/data/layout' }]
           },
           {
             text: 'API',
